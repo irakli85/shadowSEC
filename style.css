@@ -199,5 +199,35 @@ main{
     color: var(--black);
 }
 
+/* SECTION TWO */
+.section-two{
+    background-color: var(--orange);
+    padding: 6rem 4rem;
+}
+
+.sec-two-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-two-content p{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 700;
+    max-width: 45rem;
+}
+
+.sec-two-content div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.8rem;
+}
+
 
 
