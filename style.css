@@ -122,7 +122,7 @@ main{
 }
 
 .sec-one-card-items{
-    /* width: 30%; */
+    min-width: 30%;
     height: 40rem;
     padding: 3rem 2rem;
     background-color: rgba(0,0,0,.3);
