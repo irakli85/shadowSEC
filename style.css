@@ -429,6 +429,72 @@ main{
 }
 
 
+/* SECTION SEVEN */
+
+.section-seven{
+    display: flex;
+    padding: 6rem 4rem;
+    background-color: var(--orange);
+    gap: 8rem;    
+}
+
+.sec-seven-content1 p{
+    margin-top: 10rem;
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sec-seven-content1 span{
+    display: block;
+    margin-top: 4rem;
+    color: var(--black);
+    font-size: 1.8rem;
+}
+
+.sec-seven-content1 a{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 6rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+.sec-seven-content2{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sec-seven-quote-item{    
+    width: 50rem;
+    height: 25rem;
+    background-color: white;
+    padding: 3rem 2rem;    
+}
+
+.sec-seven-quote-item p{
+    margin-top: 3rem;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.sec-seven-quote-item span{
+    display: block;
+    margin-top: 3rem;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+
+
+
+
 
 
 
@@ -451,6 +517,10 @@ main{
 
     .section-five{       
         height: auto;
+    }
+
+    .section-seven{
+        flex-wrap: wrap;
     }
 
 }
