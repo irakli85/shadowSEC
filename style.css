@@ -353,7 +353,7 @@ main{
     background-image: url(./assets/pic9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 70rem; */
+    height: 70rem;
     position: relative;
 }
 
@@ -448,6 +448,9 @@ main{
     .main-info{
         width: 100%;
     }
+
+    .section-five{       
+        height: auto;
+    }
+
 }
-
-
