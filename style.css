@@ -61,7 +61,7 @@ main{
     background-repeat: no-repeat;
     background-position: top 0 right 0;
     background-size: contain;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 .main-info{
@@ -237,9 +237,10 @@ main{
     padding: 6rem 4rem;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
     flex-wrap: wrap;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 .sec-three-cards1,
@@ -289,7 +290,7 @@ main{
     align-items:center;
     gap: 2rem;
     flex-wrap: wrap;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 .sec-four-content1,
