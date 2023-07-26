@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Josefin+Sans:wght@400;500;600;700&family=Montserrat&family=Outfit:wght@400;700&display=swap');
 
+html{
+    scroll-behavior: smooth
+}
 
 :root {
     --orange: #f1a30b;
@@ -21,6 +24,22 @@ body{
     width: 100%;
     height: auto;
     background-color: var(--black);
+    position: relative;
+}
+
+#btn-back-to-top{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    display: none;
+    color: white;
+    background-color: var(--orange);
+    font-size: 2.5rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    z-index: 9999999;
 }
 
 /* HEADER */
