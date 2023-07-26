@@ -231,4 +231,54 @@ main{
 }
 
 
+/* SECTION THREE */
+
+.section-three{
+    padding: 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-bottom: 2px solid white;
+}
+
+.sec-three-cards1,
+.sec-three-cards2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.sec-three-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
+
+.sec-three-card-items{
+    min-width: 30%;
+    height: 35rem;
+    padding: 3rem 2rem;
+    background-color: rgba(0,0,0,.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-three-card-items h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sec-three-card-items p{
+    margin-top: 2rem    ;
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+
 
