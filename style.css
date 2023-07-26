@@ -566,6 +566,9 @@ main{
 
 
 
+
+
+
 /* -----MEDIA--- */
 @media screen and (max-width: 650px) {
     main{
@@ -592,6 +595,8 @@ main{
         width: 10rem;
         height: 5rem;
     }
-    
 
+    .sec-eight-content2{       
+        gap: 10rem;   
+    }
 }
