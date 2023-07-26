@@ -596,7 +596,8 @@ main{
         height: 5rem;
     }
 
-    .sec-eight-content2{       
+    .sec-eight-content2{
+        justify-content: center;       
         gap: 10rem;   
     }
 }
