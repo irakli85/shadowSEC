@@ -353,7 +353,7 @@ main{
     background-image: url(./assets/pic9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70rem;
+    /* height: 70rem; */
     position: relative;
 }
 
@@ -387,6 +387,47 @@ main{
     font-size: 2.5rem;
     line-height: 3rem;
 }
+
+/* SECTION SIX */
+
+.section-six{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    padding: 6rem 4rem;   
+}
+
+.sec-six-content1,
+.sec-six-content2,
+.sec-six-content3{
+    display: flex;
+    gap: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec-six-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sec-six-avatar{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.sec-six-item p{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.sec-six-item span{
+    font-size: 1.3rem;
+    max-width: 14rem;
+}
+
 
 
 
