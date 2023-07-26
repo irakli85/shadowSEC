@@ -210,6 +210,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sec-two-content p{
@@ -239,7 +240,6 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
-    flex-wrap: wrap;
     border-bottom: 1px solid white;
 }
 
@@ -325,5 +325,11 @@ main{
 
 
 
+/* -----MEDIA--- */
+@media screen and (max-width: 650px) {
+    .main-info{
+        width: 100%;
+}
+}
 
 
