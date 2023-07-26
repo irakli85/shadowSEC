@@ -523,4 +523,8 @@ main{
         flex-wrap: wrap;
     }
 
+    .sec-seven-quote-item{    
+        width: 40rem
+    }
+
 }
