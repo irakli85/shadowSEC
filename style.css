@@ -512,6 +512,9 @@ main{
 
 /* -----MEDIA--- */
 @media screen and (max-width: 650px) {
+    main{
+        height: auto;
+    }
     .main-info{
         width: 100%;
     }
@@ -525,7 +528,7 @@ main{
     }
 
     .sec-seven-quote-item{    
-        width: 40rem
+        width: 30rem
     }
 
 }
