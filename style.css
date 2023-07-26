@@ -280,5 +280,49 @@ main{
     font-size: 1.5rem;
 }
 
+/* SECTION FOUR */
+
+.section-four{
+    padding: 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-bottom: 2px solid white;
+}
+
+.sec-four-content1,
+.sec-four-content2{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.sec-four-card-items{
+    width: 25rem;
+    height: 22rem;
+}
+
+.sec-four-card-items img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec-four-card-items p{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.sec-four-card-items span{
+    display: block;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+}
+
+
+
 
 
