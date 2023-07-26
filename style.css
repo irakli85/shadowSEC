@@ -528,7 +528,8 @@ main{
     }
 
     .sec-seven-quote-item{    
-        width: 30rem
+        width: 30rem;
+        height: 3rem;
     }
 
 }
