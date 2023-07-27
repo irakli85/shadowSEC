@@ -754,4 +754,9 @@ textarea::placeholder{
     .footer-content2{
         margin-top: 4rem;
     }
+
+    .footer-email input,
+    .footer-name input{
+        width: 15rem;
+    }
 }
