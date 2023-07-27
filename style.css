@@ -568,6 +568,147 @@ main{
     font-size: 2rem;
 }
 
+/* FOOTER */
+
+footer{
+    display: flex;
+    padding: 6rem 4rem;   
+    background-image: url(./assets/pic10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70rem;
+    position: relative;
+    gap: 4rem;
+}
+
+footer:before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+.footer-content1{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content1 h2{
+    font-size: 6rem;
+    font-weight: 700;    
+}
+
+.footer-item{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-item span{
+    font-size: 3rem;
+}
+
+.footer-text{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.footer-content2{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-email-name{
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-email,
+.footer-name,
+.footer-adress{
+    display: flex;
+    flex-direction: column;    
+    gap: 0.5rem;
+}
+
+
+.footer-email label,
+.footer-name label,
+.footer-adress label,
+.footer-massage label{
+    font-size: 1.8rem;
+}
+
+.footer-email input,
+.footer-name input{
+    width: 20rem;
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--black);
+}
+
+.footer-adress{
+    margin-top: 2rem;
+}
+
+.footer-adress input{
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--black);
+}
+
+input:focus,
+textarea:focus{
+    outline: 2px solid var(--orange);
+}
+
+input::placeholder,
+textarea::placeholder{
+    font-size: 1.2rem;    
+}
+
+.footer-massage{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-massage textarea{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: var(--black);
+}
+
+.footer-btn{
+    margin-top: 2rem;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--orange);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer; 
+    font-size: 1.8rem;  
+}
+
+
+
 
 
 
