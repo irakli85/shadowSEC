@@ -768,4 +768,8 @@ textarea::placeholder{
         font-size: 0;
         color: var(--orange)
     }
+
+    .sec-two-content div{
+        margin-top: 1rem;
+    }
 }
