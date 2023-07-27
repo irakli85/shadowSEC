@@ -757,6 +757,10 @@ textarea::placeholder{
 
     .footer-email input,
     .footer-name input{
-        width: 15rem;
+        width: 10rem;
+    }
+
+    input::placeholder{
+    font-size: 0.8rem;    
     }
 }
