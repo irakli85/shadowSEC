@@ -763,4 +763,9 @@ textarea::placeholder{
     input::placeholder{
     font-size: 0.8rem;    
     }
+
+    #btn-back-to-top{
+        font-size: 0;
+        color: var(--orange)
+    }
 }
