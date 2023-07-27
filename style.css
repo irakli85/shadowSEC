@@ -579,6 +579,7 @@ footer{
     height: 70rem;
     position: relative;
     gap: 4rem;
+    
 }
 
 footer:before{
@@ -708,27 +709,6 @@ textarea::placeholder{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----MEDIA--- */
 @media screen and (max-width: 650px) {
     main{
@@ -759,5 +739,19 @@ textarea::placeholder{
     .sec-eight-content2{
         justify-content: center;       
         gap: 10rem;   
+    }
+
+    footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .footer-content1,
+    .footer-content2 {
+        width: 100%;
+    }
+
+    .footer-content2{
+        margin-top: 4rem;
     }
 }
