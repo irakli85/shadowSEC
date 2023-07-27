@@ -775,4 +775,11 @@ textarea::placeholder{
     .sec-two-content div{
         margin-top: 1rem;
     }
+
+    .sec-four-content1,
+    .sec-four-content2,
+    .sec-three-cards1,
+    .sec-three-cards2{
+        justify-content: center;
+    }
 }
