@@ -20,13 +20,17 @@ html{
     color: var(--white)
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 body{
     width: 100%;
     height: auto;
     background-color: var(--black);
-    position: relative;
-    overflow-x: hidden;
+    position: relative;    
 }
+
 
 #btn-back-to-top{
     position: fixed;
@@ -714,7 +718,7 @@ textarea::placeholder{
 
 
 /* -----MEDIA--- */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {    
    
     main{
         height: auto;
@@ -783,7 +787,6 @@ textarea::placeholder{
     .sec-three-cards1,
     .sec-three-cards2{
         justify-content: center;
-    }
-
+    }    
  
 }
