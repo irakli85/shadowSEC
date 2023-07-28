@@ -25,6 +25,7 @@ body{
     height: auto;
     background-color: var(--black);
     position: relative;
+    overflow-x: hidden;
 }
 
 #btn-back-to-top{
