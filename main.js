@@ -28,7 +28,7 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-
+// ---------------------------------------------------
 // burger menu
 
 const close = document.getElementById('close');

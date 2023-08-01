@@ -98,6 +98,7 @@ menu{
 
 #menuBtn{
     display: none;
+    cursor: pointer;
 }
 
 .menu-lang{
