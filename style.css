@@ -100,6 +100,17 @@ menu{
     display: none;
 }
 
+.menu-lang{
+    display: flex;
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    top: 2.4rem;
+    left: 2.4rem;
+    cursor: pointer;
+    gap: 1rem;
+}
+
 .menu-close{
     position: absolute;
     width: 2.4rem;
@@ -129,6 +140,25 @@ menu a{
 .active{
     transform: translateX(0%);
     transition: transform 1s ease-in-out;
+}
+
+.menu-nav-items a{    
+    position: relative;    
+}
+
+.menu-nav-items a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--orange);
+    transition: 1s ease;
+}
+
+.menu-nav-items a:hover::before{
+    width: 100%
 }
 
 /* MAIN */
