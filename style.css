@@ -78,7 +78,9 @@ nav{
 .nav-items:hover{
     color: var(--orange);
 }
-
+.flag{
+    margin-left: 680px;
+}
 /* MAIN */
 
 main{
