@@ -66,6 +66,7 @@ header{
 
 nav{
     display: flex;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -80,7 +81,11 @@ nav{
 }
 
 .flag{
-    margin-left: 680px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    right: 6rem;
 }
 
 
@@ -244,8 +249,7 @@ main{
 }
 
 .sec-one-card-items{
-    min-width: 30%;
-    height: 40rem;
+    width: 30%;
     padding: 3rem 2rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -471,12 +475,11 @@ main{
 /* SECTION FIVE */
 
 .section-five{
-    padding: 6rem 4rem;   
+    padding: 6rem 20rem;   
     border-bottom: 1px solid white;
     background-color: var(--orange);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 77rem;
     position: relative;
 }
 
@@ -491,7 +494,6 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,.3);
 }
 
 .sec-five-content{
