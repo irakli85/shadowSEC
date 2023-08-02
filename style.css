@@ -147,7 +147,6 @@ menu a{
     font-size: 1.6rem;
 }
 
-
 .active{
     transform: translateX(0%);
     transition: transform 1s ease-in-out;
@@ -190,6 +189,8 @@ main{
     width: 40%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     text-align: center;
     margin-top: 1px;
@@ -217,7 +218,7 @@ main{
     margin-bottom: 12rem;
     cursor: pointer;
     font-size: 1.5rem;
-    margin-left: 18rem;
+    /* margin-left: 18rem; */
 }
 
 .light:hover{
@@ -921,11 +922,7 @@ textarea::placeholder{
 
     .main-info {
         margin-top: 25rem;
-    }
-
-    .main-info button {
-        margin-left: 15rem;
-    }
+    }   
 
     .sec-three-card-items p {
         width: auto;
@@ -934,4 +931,6 @@ textarea::placeholder{
     .sec-three-cards1, .sec-three-cards2 {
         margin-left: 0;
     }
+
+   
 }
