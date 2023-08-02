@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Josefin+Sans:wght@400;500;600;700&family=Montserrat&family=Outfit:wght@400;700&display=swap');
 
-html{
+html {
     scroll-behavior: smooth
 }
 
@@ -10,29 +10,31 @@ html{
     --white: white;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 63%;
+    /* Sesacvlelia 62.5-ze*/
     text-decoration: none;
     font-family: 'Josefin Sans';
     color: var(--white)
 }
 
-html, body{
+html,
+body {
     overflow-x: hidden;
 }
 
-body{
+body {
     width: 100%;
     height: auto;
     background-color: var(--black);
-    position: relative;    
+    position: relative;
 }
 
 
-#btn-back-to-top{
+#btn-back-to-top {
     position: fixed;
     bottom: 5rem;
     right: 5rem;
@@ -48,7 +50,7 @@ body{
 }
 
 /* HEADER */
-header{
+header {
     padding: 1rem 4rem;
     display: flex;
     align-items: center;
@@ -59,25 +61,28 @@ header{
     z-index: 999999;
 }
 
-.logo{
+.logo {
     width: 20rem;
     height: 10rem;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.nav-items{
+.nav-items {
     color: var(--black);
     font-size: 2rem;
     font-weight: 700;
+    /*ჩავამატე items-ს ხაზები გაუქრება ამით*/
+    text-decoration: none;
 }
 
-.nav-items:hover{
+.nav-items:hover {
     color: var(--orange);
+
 }
 
 .flag{
@@ -174,19 +179,23 @@ menu a{
 
 /* MAIN */
 
-main{
-    padding: 1rem 4rem;
+main {
+    /* padding: 1rem 4rem; */
     background-color: var(--black);
-    background-image: url(./assets/picture2.jpg);
+    /* background-image: url(./assets/picture2.jpg); */
     background-repeat: no-repeat;
     background-position: top 0 right 0;
     background-size: contain;
     border-bottom: 1px solid white;
-    height: 60rem;
+    height: 100%;
 }
 
-.main-info{
-    width: 40%;
+.container-main {
+    display: flex;
+}
+
+.main-info {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,19 +206,23 @@ main{
     padding-left: 20px;
 }
 
-.main-info h1{
+.main-info h1 {
     color: var(--orange);
     font-size: 6rem;
+
+    margin-top: 10rem;
+
     margin-top: 20rem;
+
 }
 
-.main-info p{
+.main-info p {
     color: var(--white);
     font-size: 2rem;
     text-align: center;
 }
 
-.main-info button{
+.main-info button {
     width: 20rem;
     height: 4rem;
     background-color: var(--orange);
@@ -221,27 +234,33 @@ main{
     /* margin-left: 18rem; */
 }
 
-.light:hover{
+.light:hover {
     fill: var(--orange);
+}
+
+.col-img {
+    width: 100%;
+    height: 100%;
 }
 
 /* SECTION ONE */
 
-.section-one{
+.section-one {
     padding: 6rem 4rem;
+    background-color: rgb(20, 15, 15);
 }
 
-.section-one h2{
+.section-one h2 {
     font-size: 3rem;
 }
 
-.sec-one-info{
+.sec-one-info {
     max-width: 60rem;
     margin-top: 2rem;
     font-size: 1.8rem;
 }
 
-.sec-one-cards{
+.sec-one-cards {
     margin-top: 3rem;
     display: flex;
     gap: 2rem;
@@ -249,41 +268,47 @@ main{
     flex-wrap: wrap;
 }
 
+
+.sec-one-card-items {
+    min-width: 30%;
+    height: 40rem;
+
 .sec-one-card-items{
     width: 30%;
+
     padding: 3rem 2rem;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-    position: relative;    
+    position: relative;
 }
 
 .sec-one-icon,
 .sec-one-card-title,
-.sec-one-lists{
+.sec-one-lists {
     position: relative;
     z-index: 99999;
 }
 
-.sec-one-card-items:before{
+.sec-one-card-items:before {
     content: '';
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, .3);
 }
 
-.sec-one-item1{
+.sec-one-item1 {
     background-image: url(./assets/pic1.png);
 }
 
-.sec-one-item2{
+.sec-one-item2 {
     background-image: url(./assets/pic2.png);
 }
 
-.sec-one-item3{
+.sec-one-item3 {
     background-image: url(./assets/pic3.png);
 }
 
@@ -297,25 +322,25 @@ main{
     background-color: var(--orange);
 }
 
-.sec-one-card-title{
+.sec-one-card-title {
     margin-top: 2rem;
     font-size: 2rem;
     font-weight: 700;
 }
 
-.sec-one-card-items ul{
+.sec-one-card-items ul {
     margin-top: 1.5rem;
     margin-left: 2rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.sec-one-lists li{
+.sec-one-lists li {
     font-size: 1.7rem;
 }
 
-.sec-one-card-items:hover:before{
+.sec-one-card-items:hover:before {
     display: none;
 }
 
@@ -329,13 +354,13 @@ main{
 
 .sec-one-item1:hover .sec-one-icon,
 .sec-one-item2:hover .sec-one-icon,
-.sec-one-item3:hover .sec-one-icon{
+.sec-one-item3:hover .sec-one-icon {
     background-color: var(--black);
 }
 
 .sec-one-item1:hover .sec-one-light,
 .sec-one-item2:hover .sec-one-sets,
-.sec-one-item3:hover .sec-one-user{
+.sec-one-item3:hover .sec-one-user {
     fill: var(--orange);
 }
 
@@ -344,45 +369,51 @@ main{
 .sec-one-item3:hover .sec-one-card-title,
 .sec-one-item1:hover .sec-one-lists li,
 .sec-one-item2:hover .sec-one-lists li,
-.sec-one-item3:hover .sec-one-lists li{
+.sec-one-item3:hover .sec-one-lists li {
     color: var(--black);
 }
 
 /* SECTION TWO */
-.section-two{
+.section-two {
     background-color: var(--orange);
     padding: 6rem 4rem;
 }
 
-.sec-two-content{
+.sec-two-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* */
     flex-wrap: wrap;
 }
 
-.sec-two-content p{
+.col-7 p {
+    /* გადავაწყვე ქოლებზე*/
     color: var(--white);
     font-size: 3rem;
-    font-weight: 700;
-    max-width: 45rem;
+    font-weight: 150;
+    max-width: 100%;
 }
 
-.sec-two-content div{
+.sec-two-content .col-5 {
+    /*გადავაწყვე col-ებზე*/
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20rem;
-    height: 5rem;
+    width: 30rem;
+    height: 6rem;
+    /*შევამცირე */
     background-color: var(--black);
     color: var(--white);
-    font-size: 1.8rem;
+    font-size: 2.5rem;
+    /*შევამცირე*/
+
 }
 
 
 /* SECTION THREE */
 
-.section-three{
+.section-three {
     padding: 6rem 4rem;
     display: flex;
     flex-direction: column;
@@ -392,7 +423,7 @@ main{
 }
 
 .sec-three-cards1,
-.sec-three-cards2{
+.sec-three-cards2 {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -409,63 +440,63 @@ main{
     background-color: var(--orange);
 }
 
-.sec-three-card-items{
+.sec-three-card-items {
     min-width: 30%;
     height: 35rem;
     padding: 3rem 2rem;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, .3);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sec-three-card-items h3{
+.sec-three-card-items h3 {
     margin-top: 2rem;
     font-size: 2rem;
     font-weight: 700;
 }
 
-.sec-three-card-items p{
-    margin-top: 2rem    ;
+.sec-three-card-items p {
+    margin-top: 2rem;
     width: 20rem;
     font-size: 1.5rem;
 }
 
 /* SECTION FOUR */
 
-.section-four{
+.section-four {
     padding: 6rem 4rem;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
     border-bottom: 1px solid white;
 }
 
 .sec-four-content1,
-.sec-four-content2{
+.sec-four-content2 {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
-.sec-four-card-items{
+.sec-four-card-items {
     width: 25rem;
     height: 22rem;
 }
 
-.sec-four-card-items img{
+.sec-four-card-items img {
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 
-.sec-four-card-items p{
+.sec-four-card-items p {
     margin-top: 5rem;
     margin-left: 1rem;
     font-size: 2rem;
 }
 
-.sec-four-card-items span{
+.sec-four-card-items span {
     display: block;
     margin-top: 2rem;
     margin-left: 1rem;
@@ -475,8 +506,13 @@ main{
 
 /* SECTION FIVE */
 
+
+.section-five {
+    padding: 6rem 4rem;
+
 .section-five{
     padding: 6rem 20rem;   
+
     border-bottom: 1px solid white;
     background-color: var(--orange);
     background-repeat: no-repeat;
@@ -484,20 +520,27 @@ main{
     position: relative;
 }
 
+
+.section-five::before {
+
 .section-five h2{
     font-size: 3rem;
 }
 
 .section-five::before{
+
     content: '';
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+
+    background-color: rgba(0, 0, 0, .3);
+
 }
 
-.sec-five-content{
+.sec-five-content {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -505,14 +548,14 @@ main{
     z-index: 999;
 }
 
-.sec-five-content-item h2{
+.sec-five-content-item h2 {
     margin-top: 4rem;
     font-size: 4rem;
     font-weight: 700;
     max-width: 64rem;
 }
 
-.sec-five-content-item p{
+.sec-five-content-item p {
     margin-top: 3rem;
     font-size: 2.5rem;
     line-height: 3rem;
@@ -520,40 +563,40 @@ main{
 
 /* SECTION SIX */
 
-.section-six{
+.section-six {
     display: flex;
     flex-direction: column;
     gap: 8rem;
-    padding: 6rem 4rem;   
+    padding: 6rem 4rem;
 }
 
 .sec-six-content1,
 .sec-six-content2,
-.sec-six-content3{
+.sec-six-content3 {
     display: flex;
     gap: 8rem;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.sec-six-item{
+.sec-six-item {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.sec-six-avatar{
+.sec-six-avatar {
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
 }
 
-.sec-six-item p{
+.sec-six-item p {
     font-size: 1.7rem;
     font-weight: 700;
 }
 
-.sec-six-item span{
+.sec-six-item span {
     font-size: 1.3rem;
     max-width: 14rem;
 }
@@ -561,28 +604,28 @@ main{
 
 /* SECTION SEVEN */
 
-.section-seven{
+.section-seven {
     display: flex;
     padding: 6rem 4rem;
     background-color: var(--orange);
-    gap: 8rem;    
+    gap: 8rem;
 }
 
-.sec-seven-content1 p{
+.sec-seven-content1 p {
     margin-top: 10rem;
     color: black;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.sec-seven-content1 span{
+.sec-seven-content1 span {
     display: block;
     margin-top: 4rem;
     color: var(--black);
     font-size: 1.8rem;
 }
 
-.sec-seven-content1 a{
+.sec-seven-content1 a {
     margin-top: 2rem;
     display: flex;
     align-items: center;
@@ -594,26 +637,26 @@ main{
     font-size: 2rem;
 }
 
-.sec-seven-content2{
+.sec-seven-content2 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-.sec-seven-quote-item{    
+.sec-seven-quote-item {
     width: 50rem;
     height: 25rem;
     background-color: white;
-    padding: 3rem 2rem;    
+    padding: 3rem 2rem;
 }
 
-.sec-seven-quote-item p{
+.sec-seven-quote-item p {
     margin-top: 3rem;
     color: black;
     font-size: 1.8rem;
 }
 
-.sec-seven-quote-item span{
+.sec-seven-quote-item span {
     display: block;
     margin-top: 3rem;
     color: black;
@@ -623,45 +666,46 @@ main{
 
 /* SECTION EIGHT */
 
-.section-eight{
+.section-eight {
     padding: 6rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--black);
 }
 
-.sec-eight-content1{
+.sec-eight-content1 {
     width: 100%;
 }
 
-.sec-eight-content1 h2{
+.sec-eight-content1 h2 {
     margin-top: 4rem;
     font-size: 4rem;
     font-weight: 700;
 }
 
-.sec-eight-info{
+.sec-eight-info {
     margin-top: 3rem;
     font-size: 2.5rem;
     line-height: 3rem;
     max-width: 75rem;
 }
 
-.sec-eight-content2{
+.sec-eight-content2 {
     margin-top: 10rem;
     display: flex;
     gap: 30rem;
     flex-wrap: wrap;
 }
 
-.sec-eight-content-item{
+.sec-eight-content-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4rem;
 }
 
-.sec-eight-nums{
+.sec-eight-nums {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -674,35 +718,35 @@ main{
     font-weight: 700;
 }
 
-.sec-eight-content-item p{
+.sec-eight-content-item p {
     font-size: 2rem;
 }
 
 /* FOOTER */
 
-footer{
+footer {
     display: flex;
-    padding: 6rem 4rem;   
+    padding: 6rem 4rem;
     background-image: url(./assets/pic10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70rem;
     position: relative;
     gap: 4rem;
-    
+
 }
 
-footer:before{
-    content:'';
+footer:before {
+    content: '';
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, .3);
 }
 
-.footer-content1{
+.footer-content1 {
     width: 50%;
     position: relative;
     z-index: 1;
@@ -711,28 +755,28 @@ footer:before{
     align-items: center;
 }
 
-.footer-content1 h2{
+.footer-content1 h2 {
     font-size: 6rem;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
-.footer-item{
+.footer-item {
     margin-top: 4rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.footer-item span{
+.footer-item span {
     font-size: 3rem;
 }
 
-.footer-text{
+.footer-text {
     margin-top: 1rem;
     font-size: 1.8rem;
 }
 
-.footer-content2{
+.footer-content2 {
     width: 50%;
     position: relative;
     z-index: 1;
@@ -741,16 +785,16 @@ footer:before{
     align-items: center;
 }
 
-.footer-email-name{
+.footer-email-name {
     display: flex;
     gap: 2rem;
 }
 
 .footer-email,
 .footer-name,
-.footer-adress{
+.footer-adress {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     gap: 0.5rem;
 }
 
@@ -758,12 +802,12 @@ footer:before{
 .footer-email label,
 .footer-name label,
 .footer-adress label,
-.footer-massage label{
+.footer-massage label {
     font-size: 1.8rem;
 }
 
 .footer-email input,
-.footer-name input{
+.footer-name input {
     width: 20rem;
     height: 3rem;
     padding-left: 1rem;
@@ -771,11 +815,11 @@ footer:before{
     color: var(--black);
 }
 
-.footer-adress{
+.footer-adress {
     margin-top: 2rem;
 }
 
-.footer-adress input{
+.footer-adress input {
     height: 3rem;
     padding-left: 1rem;
     font-size: 1.2rem;
@@ -783,30 +827,30 @@ footer:before{
 }
 
 input:focus,
-textarea:focus{
+textarea:focus {
     outline: 2px solid var(--orange);
 }
 
 input::placeholder,
-textarea::placeholder{
-    font-size: 1.2rem;    
+textarea::placeholder {
+    font-size: 1.2rem;
 }
 
-.footer-massage{
+.footer-massage {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.footer-massage textarea{
+.footer-massage textarea {
     padding-left: 1rem;
     padding-top: 1rem;
     font-size: 1.2rem;
     color: var(--black);
 }
 
-.footer-btn{
+.footer-btn {
     margin-top: 2rem;
     width: 100%;
     height: 4rem;
@@ -814,48 +858,54 @@ textarea::placeholder{
     color: white;
     text-transform: uppercase;
     border: none;
-    cursor: pointer; 
-    font-size: 1.8rem;  
+    cursor: pointer;
+    font-size: 1.8rem;
 }
 
 
 /* -----MEDIA--- */
 @media screen and (max-width: 650px) {
+
+
+    main {
+
     header{
         justify-content: space-between;
     }    
    
     main{
+
         height: auto;
     }
-    .main-info{
+
+    .main-info {
         width: 100%;
     }
 
-    .section-five{       
+    .section-five {
         height: auto;
     }
 
-    .section-seven{
+    .section-seven {
         flex-wrap: wrap;
     }
 
-    .sec-seven-quote-item{    
+    .sec-seven-quote-item {
         width: 30rem;
         height: 30rem;
     }
 
-    .logo{
+    .logo {
         width: 10rem;
         height: 5rem;
     }
 
-    .sec-eight-content2{
-        justify-content: center;       
-        gap: 10rem;   
+    .sec-eight-content2 {
+        justify-content: center;
+        gap: 10rem;
     }
 
-    footer{
+    footer {
         flex-wrap: wrap;
         height: auto;
     }
@@ -865,33 +915,38 @@ textarea::placeholder{
         width: 100%;
     }
 
-    .footer-content2{
+    .footer-content2 {
         margin-top: 4rem;
     }
 
     .footer-email input,
-    .footer-name input{
+    .footer-name input {
         width: 10rem;
     }
 
-    input::placeholder{
-    font-size: 0.8rem;    
+    input::placeholder {
+        font-size: 0.8rem;
     }
 
-    #btn-back-to-top{
+    #btn-back-to-top {
         font-size: 0;
         color: var(--orange)
     }
 
-    .sec-two-content div{
+    .sec-two-content div {
         margin-top: 1rem;
     }
 
     .sec-four-content1,
     .sec-four-content2,
     .sec-three-cards1,
-    .sec-three-cards2{
+    .sec-three-cards2 {
         justify-content: center;
+
+    }
+
+}
+
 
     }  
     .nav-items{
@@ -934,3 +989,4 @@ textarea::placeholder{
 
    
 }
+
