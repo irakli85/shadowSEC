@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>shadowSEC</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./assets/vite.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/vite.svg" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="wrapper">
 
@@ -15,9 +19,15 @@
         <!-- HEADER -->
         <header>
             <div>
-                <img class="logo" src="./assets/logo.png" alt="logo">
+                <img class="logo" src="./assets/logo.png" alt="logo" />
             </div>
             <nav>
+                <a class="nav-items" href="#">HOME</a>
+                <a class="nav-items" href="#">LANDING</a>
+                <a class="nav-items" href="#">ABOUT</a>
+                <a class="nav-items" href="#">TEAM</a>
+                <a class="nav-items" href="#">CONTACT</a>
+
                 <a class="nav-items" href="#main">Home</a>
                 <a class="nav-items" href="#about">About</a>
                 <a class="nav-items" href="#Team">Team</a>
@@ -55,11 +65,31 @@
         </header>
 
         <!-- MAIN -->
+
+        <main>
+            <div class="container-main">
+                <div class="col-1"></div>
+                <div class="main-info col-5">
+                    <h1 data-aos="fade-right">Vision</h1>
+                    <p data-aos="fade-right">
+                        ​Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
+                    </p>
+                    <button data-aos="fade-right">READ MORE</button>
+                </div>
+                <div class="col-6">
+                    <img class="col-img" src="assets/picture2.jpg" alt="">
+                </div>
+
+
         <main id="main">
             <div class="main-info">
                 <h1 data-aos="fade-right">Vision</h1>
                 <p data-aos="fade-right">​Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <button data-aos="fade-right">READ MORE</button>
+
             </div>
         </main>
 
@@ -88,40 +118,55 @@ Its services are used by such well-known companies around the world as - IBM, BP
 
         <!-- SECTION ONE -->
         <section class="section-one">
+
+            <h2 data-aos="fade-right">We Provide Flexible IT Choose</h2>
+            <p class="sec-one-info" data-aos="fade-right">
+                ​Lorem Ipsum is simply dummy It is a long established fact that a
+                reader will be distracted by the readable content of a page when
+                looking at its layout.
+            </p>
+            <div class="sec-one-cards">
+
             <h2 data-aos="fade-right" style="text-align: center;">ShadowSEC Georgia Advantages</h2>
             <!-- <p class="sec-one-info" data-aos="fade-right">​Lorem Ipsum is simply dummy It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> -->
             <div class="sec-one-cards" >
+
                 <div class="sec-one-card-items sec-one-item1" data-aos="flip-left">
-                    <div class="sec-one-icon">                       
-                        <svg class="sec-one-light" fill='#ffffff' width="50px" height="50px" viewBox="0 0 24 24" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">                      
-                            
-                            <g id="grid_system"/>
-                            
+                    <div class="sec-one-icon">
+                        <svg class="sec-one-light" fill="#ffffff" width="50px" height="50px" viewBox="0 0 24 24"
+                            version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="grid_system" />
+
                             <g id="_icons">
-                            
-                            <g>
-                            
-                            <path d="M12,3C9.6,3,7.5,4.5,6.5,6.9c-0.7,1.8-0.7,3.9,0.1,5.7l1.6,3.6v2c0,1,0.8,1.8,1.8,1.8h0c0,0.6,0.4,1,1,1h1.8    c0.6,0,1-0.4,1-1h0c1,0,1.8-0.8,1.8-1.8v-2l1.6-3.6c0.8-1.8,0.8-3.9,0.1-5.7C16.5,4.5,14.4,3,12,3z M13.8,18h-3.5v-1h3.5V18z     M15.6,11.8L14.1,15H13v-1.3c0.5-0.1,0.8-0.5,0.8-1c0-0.6-0.4-1-1-1h-1.7c-0.6,0-1,0.4-1,1c0,0.5,0.4,0.9,0.8,1V15H9.9l-1.4-3.2    C7.9,10.5,7.9,9,8.4,7.7C9.1,6,10.4,5,12,5s2.9,1,3.6,2.7C16.1,9,16.1,10.5,15.6,11.8z"/>
-                            
-                            <path d="M3.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l1,1C3.5,6.9,3.7,7,4,7s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L3.7,4.3z"/>
-                            
-                            <path d="M3,10c0.6,0,1-0.4,1-1S3.6,8,3,8H2C1.4,8,1,8.4,1,9s0.4,1,1,1H3z"/>
-                            
-                            <path d="M3.3,11.3l-1,1c-0.4,0.4-0.4,1,0,1.4C2.5,13.9,2.7,14,3,14s0.5-0.1,0.7-0.3l1-1c0.4-0.4,0.4-1,0-1.4S3.7,10.9,3.3,11.3z"/>
-                            
-                            <path d="M20.7,11.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l1,1c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4    L20.7,11.3z"/>
-                            
-                            <path d="M22,8h-1c-0.6,0-1,0.4-1,1s0.4,1,1,1h1c0.6,0,1-0.4,1-1S22.6,8,22,8z"/>
-                            
-                            <path d="M20,7c0.3,0,0.5-0.1,0.7-0.3l1-1c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-1,1c-0.4,0.4-0.4,1,0,1.4C19.5,6.9,19.7,7,20,7z"/>
-                            
+                                <g>
+                                    <path
+                                        d="M12,3C9.6,3,7.5,4.5,6.5,6.9c-0.7,1.8-0.7,3.9,0.1,5.7l1.6,3.6v2c0,1,0.8,1.8,1.8,1.8h0c0,0.6,0.4,1,1,1h1.8    c0.6,0,1-0.4,1-1h0c1,0,1.8-0.8,1.8-1.8v-2l1.6-3.6c0.8-1.8,0.8-3.9,0.1-5.7C16.5,4.5,14.4,3,12,3z M13.8,18h-3.5v-1h3.5V18z     M15.6,11.8L14.1,15H13v-1.3c0.5-0.1,0.8-0.5,0.8-1c0-0.6-0.4-1-1-1h-1.7c-0.6,0-1,0.4-1,1c0,0.5,0.4,0.9,0.8,1V15H9.9l-1.4-3.2    C7.9,10.5,7.9,9,8.4,7.7C9.1,6,10.4,5,12,5s2.9,1,3.6,2.7C16.1,9,16.1,10.5,15.6,11.8z" />
+
+                                    <path
+                                        d="M3.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l1,1C3.5,6.9,3.7,7,4,7s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L3.7,4.3z" />
+
+                                    <path d="M3,10c0.6,0,1-0.4,1-1S3.6,8,3,8H2C1.4,8,1,8.4,1,9s0.4,1,1,1H3z" />
+
+                                    <path
+                                        d="M3.3,11.3l-1,1c-0.4,0.4-0.4,1,0,1.4C2.5,13.9,2.7,14,3,14s0.5-0.1,0.7-0.3l1-1c0.4-0.4,0.4-1,0-1.4S3.7,10.9,3.3,11.3z" />
+
+                                    <path
+                                        d="M20.7,11.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l1,1c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4    L20.7,11.3z" />
+
+                                    <path d="M22,8h-1c-0.6,0-1,0.4-1,1s0.4,1,1,1h1c0.6,0,1-0.4,1-1S22.6,8,22,8z" />
+
+                                    <path
+                                        d="M20,7c0.3,0,0.5-0.1,0.7-0.3l1-1c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-1,1c-0.4,0.4-0.4,1,0,1.4C19.5,6.9,19.7,7,20,7z" />
+                                </g>
                             </g>
-                            
-                            </g>
-                            
                         </svg>
                     </div>
+
+                    <p class="sec-one-card-title">​Business Security</p>
+
                     <p  class="sec-one-card-title">​ShadowSEC Georgia - Benefits</p>
+
                     <ul class="sec-one-lists">
                         <li>The international company "Shadow SEC" is an official partner in Georgia</li>
                         <li>Study/training program according to international standards</li>
@@ -133,8 +178,11 @@ Its services are used by such well-known companies around the world as - IBM, BP
 
                 <div class="sec-one-card-items sec-one-item2" data-aos="flip-left">
                     <div class="sec-one-icon">
-                        <svg class="sec-one-sets" fill="#ffffff" width="50px" height="50px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M30.015 12.97l-2.567-0.569c-0.2-0.64-0.462-1.252-0.762-1.841l1.389-2.313c0.518-0.829 0.78-2.047 0-2.829l-1.415-1.414c-0.78-0.781-2.098-0.64-2.894-0.088l-2.251 1.434c-0.584-0.303-1.195-0.563-1.829-0.768l-0.576-2.598c-0.172-0.953-1.005-1.984-2.11-1.984h-2c-1.104 0-1.781 1.047-2 2l-0.642 2.567c-0.678 0.216-1.328 0.492-1.948 0.819l-2.308-1.47c-0.795-0.552-2.114-0.692-2.894 0.088l-1.415 1.414c-0.781 0.782-0.519 2 0 2.828l1.461 2.435c-0.274 0.552-0.517 1.123-0.705 1.72l-2.566 0.569c-0.953 0.171-1.984 1.005-1.984 2.109v2c0 1.105 1.047 1.782 2 2l2.598 0.649c0.179 0.551 0.404 1.080 0.658 1.593l-1.462 2.438c-0.518 0.828-0.78 2.047 0 2.828l1.415 1.414c0.78 0.782 2.098 0.64 2.894 0.089l2.313-1.474c0.623 0.329 1.277 0.608 1.96 0.823l0.64 2.559c0.219 0.953 0.896 2 2 2h2c1.105 0 1.938-1.032 2.11-1.985l0.577-2.604c0.628-0.203 1.23-0.459 1.808-0.758l2.256 1.438c0.796 0.552 2.114 0.692 2.895-0.089l1.415-1.414c0.78-0.782 0.518-2 0-2.828l-1.39-2.317c0.279-0.549 0.521-1.12 0.716-1.714l2.599-0.649c0.953-0.219 2-0.895 2-2v-2c0-1.104-1.031-1.938-1.985-2.11zM30.001 16.939c-0.085 0.061-0.245 0.145-0.448 0.192l-3.708 0.926-0.344 1.051c-0.155 0.474-0.356 0.954-0.597 1.428l-0.502 0.986 1.959 3.267c0.125 0.2 0.183 0.379 0.201 0.485l-1.316 1.314c-0.127-0.040-0.271-0.092-0.341-0.14l-3.292-2.099-1.023 0.529c-0.493 0.256-0.999 0.468-1.503 0.631l-1.090 0.352-0.824 3.723c-0.038 0.199-0.145 0.36-0.218 0.417h-1.8c-0.061-0.085-0.145-0.245-0.191-0.448l-0.921-3.681-1.066-0.338c-0.549-0.173-1.097-0.404-1.63-0.684l-1.028-0.543-3.293 2.099c-0.135 0.091-0.279 0.143-0.409 0.143l-1.311-1.276c0.018-0.104 0.072-0.274 0.181-0.449l2.045-3.408-0.487-0.98c-0.227-0.462-0.407-0.895-0.547-1.325l-0.343-1.052-3.671-0.918c-0.231-0.052-0.398-0.139-0.485-0.2v-1.86c0.001 0.001 0.002 0.001 0.005 0.001 0.034 0 0.198-0.117 0.335-0.142l3.772-0.835 0.346-1.103c0.141-0.449 0.333-0.917 0.588-1.43l0.487-0.98-2.024-3.373c-0.125-0.201-0.184-0.38-0.201-0.485l1.315-1.314c0.128 0.041 0.271 0.093 0.34 0.14l3.354 2.138 1.027-0.542c0.527-0.278 1.073-0.507 1.622-0.682l1.063-0.338 0.912-3.649c0.053-0.231 0.138-0.398 0.2-0.485h1.859c-0.014 0.020 0.115 0.195 0.142 0.339l0.84 3.794 1.089 0.352c0.511 0.165 1.023 0.38 1.523 0.639l1.023 0.532 3.224-2.053c0.135-0.092 0.279-0.143 0.409-0.143l1.313 1.276c-0.017 0.104-0.072 0.276-0.181 0.45l-1.98 3.296 0.505 0.988c0.273 0.533 0.48 1.033 0.635 1.529l0.346 1.104 3.697 0.82c0.224 0.041 0.398 0.171 0.434 0.241zM16.013 9.99c-3.321 0-6.023 2.697-6.023 6.010s2.702 6.010 6.023 6.010 6.023-2.697 6.023-6.009c0-3.313-2.702-6.010-6.023-6.010zM16 20c-2.205 0-4-1.794-4-4s1.794-4 4-4c2.206 0 4 1.794 4 4s-1.794 4-4 4z"></path>
+                        <svg class="sec-one-sets" fill="#ffffff" width="50px" height="50px" viewBox="0 0 32 32"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.015 12.97l-2.567-0.569c-0.2-0.64-0.462-1.252-0.762-1.841l1.389-2.313c0.518-0.829 0.78-2.047 0-2.829l-1.415-1.414c-0.78-0.781-2.098-0.64-2.894-0.088l-2.251 1.434c-0.584-0.303-1.195-0.563-1.829-0.768l-0.576-2.598c-0.172-0.953-1.005-1.984-2.11-1.984h-2c-1.104 0-1.781 1.047-2 2l-0.642 2.567c-0.678 0.216-1.328 0.492-1.948 0.819l-2.308-1.47c-0.795-0.552-2.114-0.692-2.894 0.088l-1.415 1.414c-0.781 0.782-0.519 2 0 2.828l1.461 2.435c-0.274 0.552-0.517 1.123-0.705 1.72l-2.566 0.569c-0.953 0.171-1.984 1.005-1.984 2.109v2c0 1.105 1.047 1.782 2 2l2.598 0.649c0.179 0.551 0.404 1.080 0.658 1.593l-1.462 2.438c-0.518 0.828-0.78 2.047 0 2.828l1.415 1.414c0.78 0.782 2.098 0.64 2.894 0.089l2.313-1.474c0.623 0.329 1.277 0.608 1.96 0.823l0.64 2.559c0.219 0.953 0.896 2 2 2h2c1.105 0 1.938-1.032 2.11-1.985l0.577-2.604c0.628-0.203 1.23-0.459 1.808-0.758l2.256 1.438c0.796 0.552 2.114 0.692 2.895-0.089l1.415-1.414c0.78-0.782 0.518-2 0-2.828l-1.39-2.317c0.279-0.549 0.521-1.12 0.716-1.714l2.599-0.649c0.953-0.219 2-0.895 2-2v-2c0-1.104-1.031-1.938-1.985-2.11zM30.001 16.939c-0.085 0.061-0.245 0.145-0.448 0.192l-3.708 0.926-0.344 1.051c-0.155 0.474-0.356 0.954-0.597 1.428l-0.502 0.986 1.959 3.267c0.125 0.2 0.183 0.379 0.201 0.485l-1.316 1.314c-0.127-0.040-0.271-0.092-0.341-0.14l-3.292-2.099-1.023 0.529c-0.493 0.256-0.999 0.468-1.503 0.631l-1.090 0.352-0.824 3.723c-0.038 0.199-0.145 0.36-0.218 0.417h-1.8c-0.061-0.085-0.145-0.245-0.191-0.448l-0.921-3.681-1.066-0.338c-0.549-0.173-1.097-0.404-1.63-0.684l-1.028-0.543-3.293 2.099c-0.135 0.091-0.279 0.143-0.409 0.143l-1.311-1.276c0.018-0.104 0.072-0.274 0.181-0.449l2.045-3.408-0.487-0.98c-0.227-0.462-0.407-0.895-0.547-1.325l-0.343-1.052-3.671-0.918c-0.231-0.052-0.398-0.139-0.485-0.2v-1.86c0.001 0.001 0.002 0.001 0.005 0.001 0.034 0 0.198-0.117 0.335-0.142l3.772-0.835 0.346-1.103c0.141-0.449 0.333-0.917 0.588-1.43l0.487-0.98-2.024-3.373c-0.125-0.201-0.184-0.38-0.201-0.485l1.315-1.314c0.128 0.041 0.271 0.093 0.34 0.14l3.354 2.138 1.027-0.542c0.527-0.278 1.073-0.507 1.622-0.682l1.063-0.338 0.912-3.649c0.053-0.231 0.138-0.398 0.2-0.485h1.859c-0.014 0.020 0.115 0.195 0.142 0.339l0.84 3.794 1.089 0.352c0.511 0.165 1.023 0.38 1.523 0.639l1.023 0.532 3.224-2.053c0.135-0.092 0.279-0.143 0.409-0.143l1.313 1.276c-0.017 0.104-0.072 0.276-0.181 0.45l-1.98 3.296 0.505 0.988c0.273 0.533 0.48 1.033 0.635 1.529l0.346 1.104 3.697 0.82c0.224 0.041 0.398 0.171 0.434 0.241zM16.013 9.99c-3.321 0-6.023 2.697-6.023 6.010s2.702 6.010 6.023 6.010 6.023-2.697 6.023-6.009c0-3.313-2.702-6.010-6.023-6.010zM16 20c-2.205 0-4-1.794-4-4s1.794-4 4-4c2.206 0 4 1.794 4 4s-1.794 4-4 4z">
+                            </path>
                         </svg>
                     </div>
                     <p class="sec-one-card-title">Advantages of SSH international audit and certification service</p>
@@ -145,10 +193,13 @@ Its services are used by such well-known companies around the world as - IBM, BP
                     </ul>
                 </div>
 
-                <div class="sec-one-card-items sec-one-item3" data-aos="flip-left">
+                <div class="sec-one-card-items sec-one-item3 " data-aos="flip-left">
                     <div class="sec-one-icon">
-                        <svg class="sec-one-user" fill="#ffffff" width="50px" height="50px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15.992 2c3.396 0 6.998 2.86 6.998 4.995v4.997c0 1.924-0.8 5.604-2.945 7.293-0.547 0.43-0.831 1.115-0.749 1.807 0.082 0.692 0.518 1.291 1.151 1.582l8.703 4.127c0.068 0.031 0.834 0.16 0.834 1.23l0.001 1.952-27.984 0.002v-2.029c0-0.795 0.596-1.045 0.835-1.154l8.782-4.145c0.63-0.289 1.065-0.885 1.149-1.573s-0.193-1.37-0.733-1.803c-2.078-1.668-3.046-5.335-3.046-7.287v-4.997c0.001-2.089 3.638-4.995 7.004-4.995zM15.992-0c-4.416 0-9.004 3.686-9.004 6.996v4.997c0 2.184 0.997 6.601 3.793 8.847l-8.783 4.145s-1.998 0.89-1.998 1.999v3.001c0 1.105 0.895 1.999 1.998 1.999h27.986c1.105 0 1.999-0.895 1.999-1.999v-3.001c0-1.175-1.999-1.999-1.999-1.999l-8.703-4.127c2.77-2.18 3.708-6.464 3.708-8.865v-4.997c0-3.31-4.582-6.995-8.998-6.995v0z"></path>
+                        <svg class="sec-one-user" fill="#ffffff" width="50px" height="50px" viewBox="0 0 32 32"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.992 2c3.396 0 6.998 2.86 6.998 4.995v4.997c0 1.924-0.8 5.604-2.945 7.293-0.547 0.43-0.831 1.115-0.749 1.807 0.082 0.692 0.518 1.291 1.151 1.582l8.703 4.127c0.068 0.031 0.834 0.16 0.834 1.23l0.001 1.952-27.984 0.002v-2.029c0-0.795 0.596-1.045 0.835-1.154l8.782-4.145c0.63-0.289 1.065-0.885 1.149-1.573s-0.193-1.37-0.733-1.803c-2.078-1.668-3.046-5.335-3.046-7.287v-4.997c0.001-2.089 3.638-4.995 7.004-4.995zM15.992-0c-4.416 0-9.004 3.686-9.004 6.996v4.997c0 2.184 0.997 6.601 3.793 8.847l-8.783 4.145s-1.998 0.89-1.998 1.999v3.001c0 1.105 0.895 1.999 1.998 1.999h27.986c1.105 0 1.999-0.895 1.999-1.999v-3.001c0-1.175-1.999-1.999-1.999-1.999l-8.703-4.127c2.77-2.18 3.708-6.464 3.708-8.865v-4.997c0-3.31-4.582-6.995-8.998-6.995v0z">
+                            </path>
                         </svg>
                     </div>
                     <p class="sec-one-card-title">Advantages of outsourcing the security system</p>
@@ -161,32 +212,65 @@ Its services are used by such well-known companies around the world as - IBM, BP
                     </ul>
                 </div>
             </div>
-
         </section>
 
         <!-- SECTION TWO -->
         <section class="section-two">
-            <div class="sec-two-content">
-                <p data-aos="fade-right">​​We advise leaders on strategy, marketing, organization and IT</p>
-                <div data-aos="fade-right">+12-345-678-89089</div>
+            <div class="sec-two-content container">
+                <div class="col-7"> <!-- გადავაწყვე ქოლებზე -->
+                    <p data-aos="fade-right">
+                        ​​We advise leaders on strategy, marketing, organization and IT
+                    </p>
+                </div>
+                <div class="col-5" data-aos="fade-right">+12-345-678-89089</div>
             </div>
         </section>
+        <!-- data-aos=" fade-right" -->
 
         <!-- SECTION THREE -->
         <section class="section-three" id="services">
             <div class="sec-three-cards1">
                 <div class="sec-three-card-items" data-aos="flip-left">
                     <div class="sec-three-icon">
-                        <img src="./assets/lightW.svg" alt="light">
+                        <img src="./assets/lightW.svg" alt="light" />
                     </div>
+
+                    <h3>Hight Quality</h3>
+                    <p>
+                        Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris
+                        augue neque gravida in fermentum. Praesent semper feugiat nibh sed
+                        pulvinar proin id venenatis.
+                    </p>
                     <h3>Security Training</h3>
                     <p>ShadowSEC Georgia Begins Training Professional, Professional, and Fire Safety Specialists</p>
+
                 </div>
 
                 <div class="sec-three-card-items" data-aos="flip-left">
-                    <div class="sec-three-icon">
-                        <img src="./assets/settingsW.svg" alt="settings">
+                    <div class="sec-thr
+                        Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris
+                        augue neque gravida in fermentum. Praesent semper feugiat nibh sed
+                        pulvinar proin id venenatis.
+                    </p>
+                </div>
+ee-icon">
+                        <img src="./assets/settingsW.svg" alt="settings" />
                     </div>
+
+                    <h3>Creative Team</h3>
+                    <p>
+                    <div class="sec-three-card-items" data-aos="flip-left">
+                        <div class="sec-three-icon">
+                            <img src="./assets/mobile.svg" alt="mobile" />
+                        </div>
+                        <h3>Amazing Results</h3>
+                        <p>
+                            Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris
+                            augue neque gravida in fermentum. Praesent semper feugiat nibh sed
+                            pulvinar proin id venenatis.
+                        </p>
+                    </div>
+
                     <h3>GDPR</h3>
                     <p>implementation of protection systems for the collection, storage and processing of personal data in accordance with the GDPR international regulation</p>
                 </div>
@@ -197,16 +281,35 @@ Its services are used by such well-known companies around the world as - IBM, BP
                     </div>
                     <h3>Cyber security solutions</h3>
                     <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+
                 </div>
 
-            </div>
-
-            <div class="sec-three-cards2">
-
-                <div class="sec-three-card-items" data-aos="flip-left">
-                    <div class="sec-three-icon">
-                        <img src="./assets/document.svg" alt="document">
+                <div class="sec-three-cards2">
+                    <div class="sec-three-card-items" data-aos="flip-left">
+                        <div class="sec-three-icon">
+                            <img src="./assets/document.svg" alt="document" />
+                        </div>
+                        <h3>Best Pricing</h3>
+                        <p>
+                            Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris
+                            augue neque gravida in fermentum. Praesent semper feugiat nibh sed
+                            pulvinar proin id venenatis.
+                        </p>
                     </div>
+
+
+                    <div class="sec-three-card-items" data-aos="flip-left">
+                        <div class="sec-three-icon">
+                            <img src="./assets/location.svg" alt="location" />
+                        </div>
+                        <h3>Innovations</h3>
+                        <p>
+                            Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris
+                            augue neque gravida in fermentum. Praesent semper feugiat nibh sed
+                            pulvinar proin id venenatis.
+                        </p>
+                    </div>
+
                     <h3>A complete security system package</h3>
                     <p>A complete security system package - which means analysis of the current situation in companies in terms of security and protection, assessment and system assembly, "OUTSOURCE" service</p>
                 </div>
@@ -219,24 +322,31 @@ Its services are used by such well-known companies around the world as - IBM, BP
                     <p>Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
                 </div> -->
 
-                <div class="sec-three-card-items" data-aos="flip-left">
-                    <div class="sec-three-icon">
-                        <img src="./assets/users.svg" alt="users">
+
+                    <div class="sec-three-card-items" data-aos="flip-left">
+                        <div class="sec-three-icon">
+                            <img src="./assets/users.svg" alt="users" />
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>
+                            Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris
+                            augue neque gravida in fermentum. Praesent semper feugiat nibh sed
+                            pulvinar proin id venenatis.
+                        </p>
                     </div>
+
+
                     <h3>Consulting and auditing services</h3>
                     <p>in the direction of labor and fire safety and protection in other sectors (hotel, construction, etc.) - including international audit and certification in cooperation with the partner British company "StaySafe Hospitality".</p>
+
                 </div>
-
-            </div>
-
         </section>
 
         <!-- SECTION FOUR -->
         <section class="section-four">
-
             <div class="sec-four-content1">
                 <div class="sec-four-card-items" data-aos="zoom-in">
-                    <img src="./assets/pic4.png" alt="pic3">
+                    <img src="./assets/pic4.png" alt="pic3" />
                 </div>
 
                 <div class="sec-four-card-items" data-aos="zoom-in">
@@ -245,35 +355,32 @@ Its services are used by such well-known companies around the world as - IBM, BP
                 </div>
 
                 <div class="sec-four-card-items" data-aos="zoom-in">
-                    <img src="./assets/pic5.png" alt="pic4">
+                    <img src="./assets/pic5.png" alt="pic4" />
                 </div>
 
                 <div class="sec-four-card-items" data-aos="zoom-in">
-                    <img src="./assets/pic6.png" alt="pic5">
+                    <img src="./assets/pic6.png" alt="pic5" />
                 </div>
             </div>
 
             <div class="sec-four-content2">
-
                 <div class="sec-four-card-items" data-aos="zoom-in">
-                    <img src="./assets/pic7.png" alt="pic6">
+                    <img src="./assets/pic7.png" alt="pic6" />
                 </div>
 
                 <div class="sec-four-card-items" data-aos="zoom-in">
-                    <img src="./assets/pic8.png" alt="pic7">
+                    <img src="./assets/pic8.png" alt="pic7" />
                 </div>
 
                 <div class="sec-four-card-items" data-aos="zoom-in">
-                    <img src="./assets/pic9.png" alt="pic8">
+                    <img src="./assets/pic9.png" alt="pic8" />
                 </div>
 
                 <div class="sec-four-card-items" data-aos="zoom-in">
                     <p>Flexibility</p>
                     <span>Sample text. Click to select the Text Element.</span>
                 </div>
-
-            </div>            
-
+            </div>
         </section>
 
         <!-- SECTION FIVE -->
@@ -281,12 +388,26 @@ Its services are used by such well-known companies around the world as - IBM, BP
             <div class="sec-five-content">
                 <div class="sec-five-content-item">
                     <h2 data-aos="fade-right">​​Intense is exactly what you need</h2>
-                    <p data-aos="fade-right">​While we were not the first home cleaning company in the UK, we take pride in being market leaders in introducing an instant online booking system plus the facility for our customers to login and control their cleaning service 24/7, 365 days a year putting you in complete control. </p>
+                    <p data-aos="fade-right">
+                        ​While we were not the first home cleaning company in the UK, we
+                        take pride in being market leaders in introducing an instant
+                        online booking system plus the facility for our customers to login
+                        and control their cleaning service 24/7, 365 days a year putting
+                        you in complete control. 
+                    </p>
                 </div>
 
                 <div class="sec-five-content-item">
-                    <h2 data-aos="fade-right">​​We dwelling elegance do shutters appetite yourself diverted</h2>
-                    <p data-aos="fade-right">​​As a result of our philosophy to be the most forward thinking home cleaning company and our focus on understanding customer needs, we have and will continue to expand across the UK with franchises in the southwest of England to the north east of Scotland with over 50 territories nationwide.</p>
+                    <h2 data-aos="fade-right">
+                        ​​We dwelling elegance do shutters appetite yourself diverted
+                    </h2>
+                    <p data-aos="fade-right">
+                        ​​As a result of our philosophy to be the most forward thinking
+                        home cleaning company and our focus on understanding customer
+                        needs, we have and will continue to expand across the UK with
+                        franchises in the southwest of England to the north east of
+                        Scotland with over 50 territories nationwide.
+                    </p>
                 </div>
             </div>
         </section>
@@ -294,197 +415,232 @@ Its services are used by such well-known companies around the world as - IBM, BP
         <!-- SECTION SIX -->
         <section class="section-six" id="Team">
             <div class="sec-six-content1">
-
                 <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/gocha.jpg" alt="gocha">
+                    <img class="sec-six-avatar" src="./assets/gocha.jpg" alt="gocha" />
                     <p>Gocha Gogiberidze</p>
-                    <span>Safety & Security Manager  - Le Meridien Hotel Batumi.  More than 20 years experience in Safety and Security sphere (including Radisson Blue Batumi etc.)
+                    <span>Safety & Security Manager - Le Meridien Hotel Batumi. More than
+                        20 years experience in Safety and Security sphere (including
+                        Radisson Blue Batumi etc.)
                     </span>
                     <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
                     </div>
                 </div>
 
                 <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/david.jpg" alt="david">
+                    <img class="sec-six-avatar" src="./assets/david.jpg" alt="david" />
                     <p>David Chakvetadze</p>
-                    <span>Head of Labor  Protection Department, Industrial Safety, Ecology And Health Care Batumi Sea Port. 20 Years Of Experience In The Field Of Labor Protection
+                    <span>Head of Labor Protection Department, Industrial Safety, Ecology
+                        And Health Care Batumi Sea Port. 20 Years Of Experience In The
+                        Field Of Labor Protection
                     </span>
                     <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
                     </div>
                 </div>
 
                 <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/gela.jpg" alt="gela">
+                    <img class="sec-six-avatar" src="./assets/gela.jpg" alt="gela" />
                     <p>Gela Talabadze</p>
-                    <span>Safety and Security Manger of Apm Terminals Poti. More than 20 years experience in Safety and Security. Over 10 years experience in HSSE.
-                        </span>
+                    <span>Safety and Security Manger of Apm Terminals Poti. More than 20
+                        years experience in Safety and Security. Over 10 years experience
+                        in HSSE.
+                    </span>
                     <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
                     </div>
                 </div>
 
                 <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/andrew.jpg" alt="andrew">
+                    <img class="sec-six-avatar" src="./assets/andrew.jpg" alt="andrew" />
                     <p>Andrew Danilov</p>
-                    <span>Quality manager - Batumi Sea Port Limited  /  KazTransOil
+                    <span>Quality manager - Batumi Sea Port Limited / KazTransOil
                     </span>
                     <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
                     </div>
                 </div>
 
                 <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/zviad.jpg" alt="zviad">
+                    <img class="sec-six-avatar" src="./assets/zviad.jpg" alt="zviad" />
                     <p>Zviad Eliziani</p>
-                    <span>MBA (CalState, USA). More than 15 years of experience in Project Management, International cooperation, Tourism Development Projects, Marketing/PR etc. 
+                    <span>MBA (CalState, USA). More than 15 years of experience in Project
+                        Management, International cooperation, Tourism Development
+                        Projects, Marketing/PR etc.
                     </span>
                     <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
                     </div>
                 </div>
 
                 <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/kakha.jpg" alt="kakha">
+                    <img class="sec-six-avatar" src="./assets/kakha.jpg" alt="kakha" />
                     <p>Kakha Margiani</p>
-                    <span>Qualified Health And Safety Professional With Over 14 Years Of Hse Experience, Including Control Of Work, H&s Management Systems, Risk Management And Personal And Process Safety, Activities Oversight, Incident Investigations And Emergency Response.
+                    <span>Qualified Health And Safety Professional With Over 14 Years Of
+                        Hse Experience, Including Control Of Work, H&s Management Systems,
+                        Risk Management And Personal And Process Safety, Activities
+                        Oversight, Incident Investigations And Emergency Response.
                     </span>
                     <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec-six-content2">
+                <div class="sec-six-item" data-aos="zoom-out-up">
+                    <img class="sec-six-avatar" src="./assets/levan.jpg" alt="levan" />
+                    <p>Levan Otarashvili</p>
+                    <span>Operations Manager at Alliance Palace Apartments managed by
+                        McInerney Hospitality International LLC
+                    </span>
+                    <div class="sec-six-socials">
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
+                    </div>
+                </div>
+
+                <div class="sec-six-item" data-aos="zoom-out-up">
+                    <img class="sec-six-avatar" src="./assets/miranda.jpg" alt="miranda" />
+                    <p>Miranda Gorgiladze</p>
+                    <span>Academic Doctor of Agrarian Sciences / Food Expert SEQM Safety
+                        Environmental and Quality Management ISO 9001-2015 Quality
+                        Management Systems Auditor Lead and QRSM International Ltd.,
+                        International Food Safety Expert.
+                    </span>
+                    <div class="sec-six-socials">
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
+                    </div>
+                </div>
+
+                <div class="sec-six-item" data-aos="zoom-out-up">
+                    <img class="sec-six-avatar" src="./assets/rezo.png" alt="rezo" />
+                    <p>Rezo Bakuridze</p>
+                    <span>Head of Integrated Management System and Standardization
+                        Department, Batumi Sea Port More than 12 years of experience in
+                        development, maintenance and auditing of occupational health &
+                        safety, quality and energy management systems in accordance with
+                        requirements of international standards & local legislation
+                    </span>
+                    <div class="sec-six-socials">
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
+                    </div>
+                </div>
+
+                <div class="sec-six-item" data-aos="zoom-out-up">
+                    <img class="sec-six-avatar" src="./assets/nodar.jpg" alt="nodar" />
+                    <p>Nodar Natidze</p>
+                    <span>Hospitality Safety / Fire Safety Expert Over 16 years of
+                        experience in Safety & Security (Hualing Tbilisi Hotel, Radisson
+                        Blue Tbilisi, Carrefour Georgia, OSCE).
+                    </span>
+                    <div class="sec-six-socials">
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
+                    </div>
+                </div>
+
+                <div class="sec-six-item" data-aos="zoom-out-up">
+                    <img class="sec-six-avatar" src="./assets/shota.jpg" alt="shota" />
+                    <p>Shota Dolidze</p>
+                    <span>Loss Prevention Le Meridien Hotel Batumi </span>
+                    <div class="sec-six-socials">
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
+                    </div>
+                </div>
+
+                <div class="sec-six-item" data-aos="zoom-out-up">
+                    <img class="sec-six-avatar" src="./assets/lasha.png" alt="lasha" />
+                    <p>Lasha Liluashvili</p>
+                    <span>Loss Prevention Le Meridien Hotel Batumi </span>
+                    <div class="sec-six-socials">
+                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb" /></a>
+                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit" /></a>
                     </div>
                 </div>
 
             </div>
 
+            <div class="sec-six-content3"></div>
 
-            <div class="sec-six-content2">
-
-                <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/levan.jpg" alt="levan">
-                    <p>Levan Otarashvili</p>
-                    <span>Operations Manager at Alliance Palace Apartments  managed by McInerney Hospitality International LLC
-                    </span>
-                    <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
-                    </div>
-                </div>
-
-                <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/miranda.jpg" alt="miranda">
-                    <p>Miranda Gorgiladze</p>
-                    <span>Academic Doctor of Agrarian Sciences / Food Expert SEQM Safety Environmental and Quality Management ISO 9001-2015 Quality Management Systems Auditor  Lead and QRSM International Ltd., International Food Safety Expert.
-                    </span>
-                    <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
-                    </div>
-                </div>
-
-                <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/rezo.png" alt="rezo">
-                    <p>Rezo Bakuridze</p>
-                    <span>Head of Integrated Management System and Standardization Department,  Batumi Sea Port
-                        More than 12 years of experience in development, maintenance and auditing of occupational health & safety, quality and energy management systems in accordance with requirements of international standards & local legislation                        
-                    </span>
-                    <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
-                    </div>
-                </div>
-
-                <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/nodar.jpg" alt="nodar">
-                    <p>Nodar Natidze</p>
-                    <span>Hospitality Safety / Fire Safety Expert 
-                        Over 16 years of experience in Safety & Security (Hualing Tbilisi Hotel,  Radisson Blue Tbilisi, Carrefour Georgia, OSCE).                                         
-                    </span>
-                    <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
-                    </div>
-                </div>
-
-                <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/shota.jpg" alt="shota">
-                    <p>Shota Dolidze</p>
-                    <span>Loss Prevention Le Meridien Hotel Batumi                                         
-                    </span>
-                    <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
-                    </div>
-                </div>
-
-                <div class="sec-six-item" data-aos="zoom-out-up">
-                    <img class="sec-six-avatar" src="./assets/lasha.png" alt="lasha">
-                    <p>Lasha Liluashvili</p>
-                    <span>Loss Prevention Le Meridien Hotel Batumi                                         
-                    </span>
-                    <div class="sec-six-socials">
-                        <a href="https://facebook.com" target="_blank"><img src="./assets/fb.svg" alt="fb"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="./assets/twit.svg" alt="twit"></a>
-                    </div>
-                </div>
 
             </div>          
+
         </section>
 
         <!-- SECTION SEVEN -->
         <section class="section-seven">
             <div class="sec-seven-content1">
-                <p data-aos="fade-right">​To provide a safe and enjoyable environment for all of our clients and work with our clients to achieve the results to services they request, while focusing their hair, nail, and skin health.</p>
-                <span data-aos="fade-right">Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Pharetra magna ac placerat vestibulum. Quam lacus suspendisse faucibus interdum posuere lorem. Egestas tellus rutrum tellus pellentesque eu tincidunt. Neque vitae tempus quam pellentesque nec.</span>
+                <p data-aos="fade-right">
+                    ​To provide a safe and enjoyable environment for all of our clients
+                    and work with our clients to achieve the results to services they
+                    request, while focusing their hair, nail, and skin health.
+                </p>
+                <span data-aos="fade-right">Sample text. Click to Egestas egestas fringilla phasellus
+                    faucibus
+                    scelerisque eleifend donec pretium vulputate. Pharetra magna ac
+                    placerat vestibulum. Quam lacus suspendisse faucibus interdum
+                    posuere lorem. Egestas tellus rutrum tellus pellentesque eu
+                    tincidunt. Neque vitae tempus quam pellentesque nec.</span>
                 <a href="#" data-aos="fade-right">LEARN MORE</a>
             </div>
 
             <div class="sec-seven-content2">
-
                 <div class="sec-seven-quote-item" data-aos="fade-left">
-                    <img src="./assets/quote.svg" alt="quote">
-                    <p>Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl. Enim nunc</p>
+                    <img src="./assets/quote.svg" alt="quote" />
+                    <p>
+                        Proin sed libero enim sed faucibus turpis. At imperdiet dui
+                        accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla
+                        pharetra diam sit amet nisl. Enim nunc
+                    </p>
                     <span>Celia Almeda</span>
                 </div>
 
                 <div class="sec-seven-quote-item" data-aos="fade-left">
-                    <img src="./assets/quote.svg" alt="quote">
-                    <p>Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl. Enim nunc</p>
+                    <img src="./assets/quote.svg" alt="quote" />
+                    <p>
+                        Proin sed libero enim sed faucibus turpis. At imperdiet dui
+                        accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla
+                        pharetra diam sit amet nisl. Enim nunc
+                    </p>
                     <span>Frank Kinney</span>
                 </div>
-
             </div>
         </section>
 
         <!-- SECTION EIGHT -->
         <section class="section-eight">
             <div class="sec-eight-content1">
-                <h2 data-aos="fade-right">The Future That You Will See Soon</h2>
-                <p class="sec-eight-info" data-aos="fade-right">Sample text. Click to select the text box. Click again or double click to start editing the text.                
-                </p>
-             </div>
+                <h2 data-aos="fade-right">Partners and organizations of reference
+                </h2>
 
-            <div class="sec-eight-content2">
+            </div>
 
-                <div class="sec-eight-content-item" data-aos="fade-left">
-                    <div class="sec-eight-nums">92</div>
-                    <p>Unlimited Ideas</p>
+            <div class="sec-eight-content2 ">
+                <div class="sec-eight-partners1">
+                    <img src="assets/EU.png" alt="logo of european union">
+                    <img src="assets/enisa.jpg" alt="logo of enisa">
+                    <img src="assets/nato.png" alt="logo of nato">
+                    <img src="assets/uktrade&investment.jpg" alt="logo of uk trade & investment">
+                    <img src="assets/gns.jpg" alt="logo of gns">
+                    <img src="assets/isc.jpg" alt="logo of isc">
                 </div>
-
-                <div class="sec-eight-content-item" data-aos="fade-left">
-                    <div class="sec-eight-nums">37</div>
-                    <p>Beautiful Web Blocks</p>
-                </div>
-
-                <div class="sec-eight-content-item" data-aos="fade-left">
-                    <div class="sec-eight-nums">25</div>
-                    <p>Responsive Designs</p>
+                <div class="sec-eight-partners2">
+                    <img src="assets/unicri.jpg" alt="logo of unicri">
+                    <img src="assets/cert.pt.jpg" alt="logo of cert.pt">
+                    <img src="assets/GTBtechno.png" alt="logo of gtb techno">
+                    <img src="assets/ap2si.jpg" alt="logo of ap2si">
+                    <img src="assets/staysafehospitality.png" alt="logo of staysafehospitality">
+                    <img src="assets/cyberhive.jpg" alt="logo of cyberhive">
                 </div>
 
             </div>
@@ -494,23 +650,23 @@ Its services are used by such well-known companies around the world as - IBM, BP
         <footer id="footer">
             <div class="footer-content1" data-aos="fade-left">
                 <div>
-                    <h2>Contact Us</h2>                
+                    <h2>Contact Us</h2>
                     <div class="footer-item">
-                        <img src="./assets/phone.svg" alt="phone">
+                        <img src="./assets/phone.svg" alt="phone" />
                         <span>Call Us</span>
                     </div>
                     <p class="footer-text">1 (234) 567-891, 1 (234) 987-654</p>
                     <div class="footer-item">
-                        <img src="./assets/flocation.svg" alt="location">
+                        <img src="./assets/flocation.svg" alt="location" />
                         <span>Location</span>
                     </div>
-                    <p class="footer-text">121 Rock Sreet, 21 Avenue, New York, NY </p>
+                    <p class="footer-text">121 Rock Sreet, 21 Avenue, New York, NY</p>
                     <span class="footer-text">92103-9000</span>
                     <div class="footer-item">
-                        <img src="./assets/clock.svg" alt="clock">
+                        <img src="./assets/clock.svg" alt="clock" />
                         <span>​Business Hours</span>
                     </div>
-                    <p class="footer-text">Mon – Fri …… 10 am – 8 pm, Sat, Sun ....… </p>
+                    <p class="footer-text">Mon – Fri …… 10 am – 8 pm, Sat, Sun ....…</p>
                     <span class="footer-text">Closed</span>
                 </div>
             </div>
@@ -520,40 +676,55 @@ Its services are used by such well-known companies around the world as - IBM, BP
                     <div class="footer-email-name">
                         <div class="footer-email">
                             <label for="email">Email</label>
-                            <input type="email"  id="email" placeholder="Enter a valid email" required>
+                            <<<<<<< Updated upstream <input type="email" id="email" placeholder="Enter a valid email"
+                                required>
+                                =======
+                                <input type="email" id="email" placeholder="Enter a valid email address" required />
+                                >>>>>>> Stashed changes
                         </div>
                         <div class="footer-name">
                             <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Enter your Name" required>
+                            <input type="text" id="name" placeholder="Enter your Name" required />
                         </div>
                     </div>
                     <div class="footer-adress">
                         <label for="adress">Adress</label>
-                        <input type="text" id="adress" placeholder="Enter your address" required>
+                        <<<<<<< Updated upstream <input type="text" id="adress" placeholder="Enter your address"
+                            required>
+                            =======
+                            <input type="text" id="adress" placeholder="Enter your address" />
+                            >>>>>>> Stashed changes
                     </div>
                     <div class="footer-massage">
                         <label for="message">Message</label>
                         <textarea id="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
                     </div>
                     <button class="footer-btn">Submit</button>
-                    
                 </form>
-
             </div>
         </footer>
-
     </div>
 
     <!-- SCROLL TO TOP BUTTON -->
-    <button id="btn-back-to-top">on Top
-        <img src="./assets/arrow.svg" alt="arrow">
+    <button id="btn-back-to-top">
+        on Top
+        <img src="./assets/arrow.svg" alt="arrow" />
     </button>
 
     <!-- SCRIPTS -->
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <script>
+
+        AOS.init({ delay: 500, duration: 1200 });
+    </script>
+
       AOS.init({delay: 100,duration: 1200,});
     </script>   
+
 </body>
+
 </html>
