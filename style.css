@@ -543,7 +543,7 @@ main {
 /* SECTION EIGHT */
 
 .section-eight {
-    /* padding: 6rem 4rem; */
+    padding: 6rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
