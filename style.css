@@ -910,5 +910,28 @@ textarea::placeholder{
     nav{
         display: none;
     }
- 
+
+    .sec-one-card-items {
+        width: auto;
+    }
+
+    .section-five {
+        padding: 6rem 6rem;
+    }
+
+    .main-info {
+        margin-top: 25rem;
+    }
+
+    .main-info button {
+        margin-left: 15rem;
+    }
+
+    .sec-three-card-items p {
+        width: auto;
+    }
+
+    .sec-three-cards1, .sec-three-cards2 {
+        margin-left: 0;
+    }
 }
