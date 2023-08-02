@@ -40,8 +40,8 @@ body {
     right: 5rem;
     display: none;
     color: white;
-    background-color: var(--orange);
-    font-size: 2.5rem;
+    background-color: rgb(190, 124, 2);
+    font-size: 2rem;
     padding: 2rem;
     border-radius: 3rem;
     border: none;
@@ -68,6 +68,7 @@ header {
 
 nav {
     display: flex;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -83,6 +84,98 @@ nav {
     color: var(--orange);
 
 }
+
+.flag{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    right: 6rem;
+}
+
+
+/* -----BURGER MENU------ */
+
+menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 29.4rem;
+    height: auto;
+    padding: 2.4rem;
+    transform: translateX(100%);
+    transition: transform 1s ease-in-out;
+    z-index: 999;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#menuBtn{
+    display: none;
+    cursor: pointer;
+}
+
+.menu-lang{
+    display: flex;
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    top: 2.4rem;
+    left: 2.4rem;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+.menu-close{
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    top: 2.4rem;
+    right: 2.4rem;
+    cursor: pointer;
+}
+
+.menu-close:hover{
+    background-color: rgba(0,0,0,.05);
+}
+
+menu ul{
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+menu a{
+    color: #151411;
+    font-size: 1.6rem;
+}
+
+.active{
+    transform: translateX(0%);
+    transition: transform 1s ease-in-out;
+}
+
+.menu-nav-items a{    
+    position: relative;    
+}
+
+.menu-nav-items a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--orange);
+    transition: 1s ease;
+}
+
+.menu-nav-items a:hover::before{
+    width: 100%
+}
+
 
 /* MAIN */
 
@@ -105,18 +198,28 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
+    text-align: center;
+    margin-top: 1px;
+    padding-left: 20px;
 }
 
 .main-info h1 {
     color: var(--orange);
     font-size: 6rem;
+
     margin-top: 10rem;
+
+    margin-top: 20rem;
+
 }
 
 .main-info p {
     color: var(--white);
     font-size: 2rem;
+    text-align: center;
 }
 
 .main-info button {
@@ -128,6 +231,7 @@ main {
     margin-bottom: 12rem;
     cursor: pointer;
     font-size: 1.5rem;
+    /* margin-left: 18rem; */
 }
 
 .light:hover {
@@ -164,9 +268,14 @@ main {
     flex-wrap: wrap;
 }
 
+
 .sec-one-card-items {
     min-width: 30%;
     height: 40rem;
+
+.sec-one-card-items{
+    width: 30%;
+
     padding: 3rem 2rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,6 +427,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-left: 10rem;
 }
 
 .sec-three-icon {
@@ -396,24 +506,38 @@ main {
 
 /* SECTION FIVE */
 
+
 .section-five {
     padding: 6rem 4rem;
+
+.section-five{
+    padding: 6rem 20rem;   
+
     border-bottom: 1px solid white;
-    background-image: url(./assets/pic9.jpg);
+    background-color: var(--orange);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70rem;
     position: relative;
 }
 
+
 .section-five::before {
+
+.section-five h2{
+    font-size: 3rem;
+}
+
+.section-five::before{
+
     content: '';
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+
     background-color: rgba(0, 0, 0, .3);
+
 }
 
 .sec-five-content {
@@ -742,7 +866,15 @@ textarea::placeholder {
 /* -----MEDIA--- */
 @media screen and (max-width: 650px) {
 
+
     main {
+
+    header{
+        justify-content: space-between;
+    }    
+   
+    main{
+
         height: auto;
     }
 
@@ -810,6 +942,51 @@ textarea::placeholder {
     .sec-three-cards1,
     .sec-three-cards2 {
         justify-content: center;
+
     }
 
 }
+
+
+    }  
+    .nav-items{
+        font-size: 1.5rem;
+    }  
+    nav{
+        gap: 1rem;
+    }
+    header{
+        gap: 2rem;
+    }
+    
+    #menuBtn{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .sec-one-card-items {
+        width: auto;
+    }
+
+    .section-five {
+        padding: 6rem 6rem;
+    }
+
+    .main-info {
+        margin-top: 25rem;
+    }   
+
+    .sec-three-card-items p {
+        width: auto;
+    }
+
+    .sec-three-cards1, .sec-three-cards2 {
+        margin-left: 0;
+    }
+
+   
+}
+
