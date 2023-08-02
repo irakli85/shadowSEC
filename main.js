@@ -3,12 +3,10 @@
 
 let mybutton = document.getElementById("btn-back-to-top");
 
-//ღილაკი გაჩნდება როცა სქროლი გაცდება 20px-ს
 window.onscroll = function () {
   scrollFunction();
 };
 
-//ღილაკი გაქრობა-გაჩენის ფუნქცია
 function scrollFunction() {
   if (
     document.body.scrollTop > 20 ||
@@ -20,10 +18,27 @@ function scrollFunction() {
   }
 }
 
-//ღილაკი ასქროლავს 0px-ზე
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// ---------------------------------------------------
+// burger menu
+
+const close = document.getElementById('close');
+const menuBar = document.getElementById('menu');
+const menuBtn = document.getElementById('menuBtn');
+
+function openMenu(){
+    menuBar.classList.add('active');    
+}
+
+function closeMenu(){
+    menuBar.classList.remove('active'); 
+}
+
+close.addEventListener("click", closeMenu);
+menuBtn.addEventListener("click", openMenu);
