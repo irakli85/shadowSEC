@@ -973,5 +973,9 @@ textarea::placeholder{
         margin-left: 0;
     }
 
-   
+    .section-two,
+    .section-seven {
+        padding: 6rem 6rem;
+
+    }
 }
