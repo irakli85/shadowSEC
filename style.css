@@ -973,9 +973,12 @@ textarea::placeholder{
         margin-left: 0;
     }
 
-    .section-two,
-    .section-seven {
+    .section-two {
         padding: 6rem 6rem;
+
+    }
+    .section-seven {
+        padding: 6rem 4rem;
 
     }
 }
