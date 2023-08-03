@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="wrapper">
@@ -491,6 +492,45 @@ Its services are used by such well-known companies around the world as - IBM, BP
             </div>
         </section>
 
+        <!-- SECTION NINE -->
+        <section class="section-nine">
+            <h2>Our Partners</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./assets/part1.jpg" alt="1"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part2.png" alt="2"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part3.jpg" alt="3"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part4.png" alt="4"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part5.jpg" alt="5"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part6.png" alt="6"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part7.png" alt="7"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part8.png" alt="8"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part9.png" alt="9"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part10.png" alt="10"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part11.png" alt="11"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part12.png" alt="12"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part13.jpg" alt="13"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part14.jpg" alt="14"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part15.png" alt="15"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part16.png" alt="16"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part17.png" alt="17"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part18.jpg" alt="18"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part19.png" alt="19"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part20.jpg" alt="20"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part21.jpg" alt="21"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part22.jpg" alt="22"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part23.jpg" alt="23"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part24.jpg" alt="24"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part25.png" alt="25"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part26.jpg" alt="26"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part27.png" alt="27"></div>                 
+                  <div class="swiper-slide"><img src="./assets/part28.jpg" alt="28"></div>                  
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </section>
+
         <!-- FOOTER -->
         <footer id="footer">
             <div class="footer-content1" data-aos="fade-left">
@@ -555,6 +595,26 @@ Its services are used by such well-known companies around the world as - IBM, BP
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({delay: 100,duration: 1200,});
-    </script>   
+    </script>
+    
+    <!-- slider scripts -->
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+        </script>
 </body>
 </html>
