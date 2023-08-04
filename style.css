@@ -1028,4 +1028,9 @@ textarea::placeholder{
         padding: 6rem 4rem;
 
     }
+
+    .swiper-button-prev,  
+    .swiper-button-next {
+    color: transparent !important;
+  }
 }
