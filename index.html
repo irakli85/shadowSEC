@@ -23,7 +23,16 @@
                 <a class="nav-items header-nav" href="#Team">Team</a>
                 <a class="nav-items header-nav" href="#services">Services</a>
                 <a class="nav-items header-nav" href="#footer">Contact</a>
-                <a class="nav-items header-nav" href="#partners">Partners</a>
+                <div class="dropdown">
+                    <p class="dropbtn nav-items">More</p>
+                    <div class="dropdown-content">
+                      <a href="#">Advantages</a>
+                      <a href="#">Publications</a>
+                      <a href="#">Partners</a>
+                      <a href="#">Gallery</a>
+                      <a href="#">Standarts</a>
+                    </div>
+                </div>
                 <div class="flag">                    
                     <a href="./index.html"><img src="./assets/eng.svg" alt="english"></a>
                     <a href="./indexGEO.html"><img src="./assets/geo.svg" alt="georgia"></a>     
@@ -56,13 +65,23 @@
         </header>
 
         <!-- MAIN -->
-        <main id="main">
+        <!-- <main id="main">
             <div class="main-info">
                 <h1 data-aos="fade-right">Safety First</h1>
                 <p data-aos="fade-right">​Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <button data-aos="fade-right">READ MORE</button>
             </div>
-        </main>
+        </main> -->
+        <section class="video">
+            <video autoplay muted loop id="myVideo">
+                <source src="./assets/main.mp4" type="video/mp4">
+            </video>
+            <div class="video-info">
+                <h2>Safety First</h2>
+                <p>​Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#">Demo Drive</a>
+            </div>
+        </section>
 
           <!-- SECTION FIVE -->
           <section class="section-five" id="about">
