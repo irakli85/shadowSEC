@@ -129,6 +129,69 @@ nav{
     right: 6rem;
 }
 
+/* --------------dropdown----------- */
+.dropbtn {
+    background-color: transparent;
+    font-weight: 700;
+    line-height: 180%;
+    color: var(--black);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+  }
+
+  .dropbtn::before{
+    content: url('./assets/arrowDown.svg');
+    position: absolute;
+    left: 70%;
+    bottom: 7px;
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+  }  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+  }  
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn::before{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  
+
+/* -------------------- */
+
 
 /* -----BURGER MENU------ */
 
@@ -214,6 +277,65 @@ menu a{
 
 
 /* MAIN */
+/* ---------------------------- */
+.video{
+    width: auto;
+    position: relative;
+}
+
+#myVideo {   
+    width: 100%;
+    height: 100%;
+  }
+
+.video-info{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+}
+
+.video-info h2{
+    margin-top: 5rem;
+    color: var(--orange);
+    font-size: 9rem;
+    font-weight: 900;
+}
+
+.video-info p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.video-info a{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26.4rem;
+    height: 5rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 900;    
+    border: solid 3px white;
+}
+
+.video-info a:hover{    
+    animation: pulse2 1s;
+    box-shadow: 0 0 0 2em transparent;
+  }
+  
+  @keyframes pulse2 {
+    0% { box-shadow: 0 0 0 0 white;
+      filter: hue-rotate(45deg); }
+  } 
+/* --------------------------------- */
 
 main{
     padding: 1rem 4rem;
