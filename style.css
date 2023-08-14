@@ -443,15 +443,15 @@ main{
 }
 
 .sec-one-item1{
-    background-image: url(./assets/pic1.png);
+    background-image: url(./assets/ga19.jpg);
 }
 
 .sec-one-item2{
-    background-image: url(./assets/pic2.png);
+    background-image: url(./assets/ga17.jpg);
 }
 
 .sec-one-item3{
-    background-image: url(./assets/pic3.png);
+    background-image: url(./assets/ga5.jpg);
 }
 
 .sec-one-icon {
@@ -617,8 +617,8 @@ main{
 }
 
 .sec-four-card-items{
-    width: 25rem;
-    height: 22rem;
+    width: 28rem;
+    height: 26rem;
 }
 
 .sec-four-card-items img{
@@ -1042,6 +1042,8 @@ textarea::placeholder{
     margin-top: 3rem;
     font-size: 1.4rem;
 }
+
+
 
 
 
