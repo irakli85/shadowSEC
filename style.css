@@ -653,8 +653,16 @@ main{
 }
 
 .section-five p{
-    font-size: 1.6rem
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
+
+.section-five h3{
+    font-size: 2.6rem;
+    margin-top: 2rem;
+}
+
 
 .accordion{
     margin-top: 3rem;    
@@ -683,7 +691,7 @@ main{
 }
 
 .section-five h2{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 /* SECTION SIX */
