@@ -644,7 +644,7 @@ main{
 /* SECTION FIVE */
 
 .section-five{
-    padding: 6rem 20rem;   
+    padding: 6rem 40rem;   
     border-bottom: 1px solid white;
     background-color: var(--orange);
     background-repeat: no-repeat;
@@ -657,8 +657,7 @@ main{
 }
 
 .accordion{
-    margin-top: 3rem;
-    background-color: var(--black) !important;
+    margin-top: 3rem;    
 }
 
 .accordion-button{
