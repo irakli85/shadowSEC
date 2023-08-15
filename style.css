@@ -15,7 +15,7 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: 'Josefin Sans';
     color: var(--white)
 }
@@ -64,13 +64,13 @@ header{
     height: 10rem;
 }
 
-nav{
+.nav{
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.nav-items{
+.nav_items{
     color: var(--black);
     font-size: 2rem;
     font-weight: 700;
@@ -80,7 +80,7 @@ nav{
     padding: 1rem;
 }
 
-.nav-items:hover{
+.nav_items:hover{
     color: var(--orange);
 }
 
@@ -90,7 +90,7 @@ nav{
     content: '';
     display: block;
     position: absolute;
-    width: 5%;
+    width: 10%;
     height: 20%;
     border: 2px solid;
     transition: all 0.6s ease;
@@ -578,7 +578,7 @@ main{
 
 .sec-three-card-items{
     min-width: 30%;
-    height: 35rem;
+    height: 45rem;
     padding: 3rem 2rem;
     background-color: rgba(0,0,0,.3);
     background-repeat: no-repeat;
@@ -649,6 +649,10 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.section-five p{
+    font-size: 1.6rem
 }
 
 .accordion{
@@ -1108,10 +1112,10 @@ textarea::placeholder{
         justify-content: center;
 
     }  
-    .nav-items{
+    .nav_items{
         font-size: 1.5rem;
     }  
-    nav{
+    .nav{
         gap: 1rem;
     }
     header{
@@ -1122,7 +1126,7 @@ textarea::placeholder{
         display: block;
     }
 
-    nav{
+    .nav{
         display: none;
     }
 
@@ -1162,14 +1166,14 @@ textarea::placeholder{
 }
 
 @media screen and (max-width: 1200px) {
-    .nav-items{
+    .nav_items{
         font-size: 1.5rem;
         width: 8.7rem;
     }
 }
 
 @media screen and (max-width: 1075px) {
-    .nav-items{
+    .nav_items{
         font-size: 1rem;
         width: 6.7rem;
     }
