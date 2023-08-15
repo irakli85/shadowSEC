@@ -658,15 +658,18 @@ main{
 
 .accordion{
     margin-top: 3rem;
+    background-color: var(--black) !important;
 }
 
 .accordion-button{
     font-size: 2rem;
     color: var(--orange) !important;
     font-weight: 900;
+    padding-left: 30%;
 }
 
 .accordion-body{
+    padding: 4rem 10rem;
     font-size: 1.8rem;
     color: var(--black);
 }
