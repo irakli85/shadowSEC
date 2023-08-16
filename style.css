@@ -1216,4 +1216,12 @@ textarea::placeholder{
       .accordion-button{          
         padding-left: 5%;
     }
+
+    .accordion-body {
+        padding: 4rem 4rem;
+    }
+
+    .accordion-button {
+        font-size: 1.8rem;
+    }
 }
