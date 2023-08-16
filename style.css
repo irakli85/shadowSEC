@@ -1212,4 +1212,8 @@ textarea::placeholder{
     .section-nine {       
         padding: 0;
       }
+
+      .accordion-button{          
+        padding-left: 5%;
+    }
 }
