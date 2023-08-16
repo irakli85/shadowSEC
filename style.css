@@ -597,6 +597,35 @@ main{
     width: 20rem;
     font-size: 1.5rem;
 }
+/* ------gallery videos------ */
+.videoteka{
+    margin-top: 9rem;
+    width: 100%;    
+}
+
+.videoteka h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--orange);
+}
+
+
+.videoteka div{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;    
+}
+
+.gallery-video video{
+   width: 35rem;
+   height: 26rem;
+   border-radius: 2rem;
+   object-fit: fill;
+}
+/* ____________ */
+
+
 
 /* SECTION FOUR */
 
