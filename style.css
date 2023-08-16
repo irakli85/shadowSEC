@@ -860,6 +860,7 @@ main{
     background: white;
     font-size: 1.4rem;
     color: #000;
+    padding: 10rem;
   }
 
   .swiper {
@@ -1207,4 +1208,8 @@ textarea::placeholder{
     #menuBtn{
         display: block;
     }
+
+    .section-nine {       
+        padding: 0;
+      }
 }
