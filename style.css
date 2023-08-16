@@ -730,6 +730,9 @@ main {
     align-items: center;
     gap:2rem;
 }
+#read-more{
+    display: none;
+}
 
 .sec-six-avatar {
     height: 15rem;
