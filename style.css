@@ -1286,3 +1286,15 @@ textarea::placeholder {
         font-size: 1.8rem;
     }
 }
+
+
+/* read more */
+
+#more {display: none;}
+
+.readBtn{
+    margin-left: 38%;
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
