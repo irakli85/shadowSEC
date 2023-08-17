@@ -620,10 +620,16 @@ main {
 }
 
 .sec-four-content1,
-.sec-four-content2 {
+.sec-four-content2,
+.videoteka {
     display: flex;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+}
+
+.sec-four-content1{
+    margin-top: 4rem;
 }
 
 .sec-four-card-items {
@@ -648,6 +654,35 @@ main {
     margin-left: 1rem;
     font-size: 1.7rem;
     line-height: 2rem;
+}
+
+.videoteka{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.videoteka h2{
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--orange);
+}
+
+
+.gallery-video{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;    
+}
+
+.gallery-video video{
+   max-width: 35rem;
+   height: 26rem;
+   border-radius: 2rem;
+   object-fit: fill;
 }
 
 /* SECTION FIVE */
