@@ -952,7 +952,6 @@ main {
 }
 
 .section-nine h2 {
-    margin-top: 4rem;
     color: var(--orange);
     position: relative;
     display: flex;
@@ -1283,7 +1282,7 @@ textarea::placeholder {
     }
 
     .section-nine {
-        padding: 0;
+        padding: 5rem;
     }
 
     .accordion-button {
