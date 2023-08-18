@@ -943,9 +943,8 @@ main {
 .swiper-slide {
     text-align: center;
     font-size: 1.8rem;
-    display: flex;
+    display: flex !important;
     justify-content: center;
-    align-items: center;
 }
 
 .swiper-slide img {
