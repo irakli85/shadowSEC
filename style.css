@@ -1126,8 +1126,6 @@ textarea::placeholder {
 /* -----MEDIA--- */
 @media screen and (max-width: 650px) {
 
-
-
     main {
         height: auto;
     }
@@ -1196,8 +1194,6 @@ textarea::placeholder {
     .sec-three-cards1,
     .sec-three-cards2 {
         justify-content: center;
-
-
     }
 
     .nav_items {
@@ -1205,7 +1201,6 @@ textarea::placeholder {
     }
 
     .nav {
-
         gap: 1rem;
     }
 
@@ -1236,12 +1231,10 @@ textarea::placeholder {
 
     .section-two {
         padding: 6rem 6rem;
-
     }
 
     .section-seven {
         padding: 6rem 4rem;
-
     }
 
     .swiper-button-prev,
@@ -1296,6 +1289,13 @@ textarea::placeholder {
     .accordion-button {
         font-size: 1.8rem;
     }
+
+    .gallery-video video{
+        max-width: 26rem;
+        height: 26rem;
+        border-radius: 2rem;
+        object-fit: fill;
+     }
 }
 
 
