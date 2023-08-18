@@ -524,9 +524,6 @@ main {
     transform: translateX(-50%);
 }
 
-#dots3, #moreText3{
-    transition: display .35s ease-in-out;
-}
 
 
 /* SECTION TWO */
@@ -761,27 +758,6 @@ main {
     margin-top: 2rem;
 }
 
-.swiper-wrapper2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* padding: 2rem; */
-
-}
-
-.swiper-slide2 {
-    text-align: center;
-    font-size: 1.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 6rem;
-}
-
-.swiper-slide2 img {
-    display: block;
-}
-
 .sec-six-item {
     display: flex;
     flex-direction: column;
@@ -820,6 +796,10 @@ main {
     display: flex;
 }
 
+.swiper {    
+    display: flex !important;
+    justify-content: center !important;
+}
 
 /* SECTION SEVEN */
 
