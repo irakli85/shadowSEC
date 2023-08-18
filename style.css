@@ -516,7 +516,7 @@ main {
 
 #more1, #more2, #more3 {display: none;}
 
-.readBtn{
+.readBtn{    
     margin-left: 50%;
     font-size: 1.5rem;
     color: black;
@@ -525,7 +525,7 @@ main {
 }
 
 #dots3, #moreText3{
-    transition: all 5s ease-in-out;
+    transition: display .35s ease-in-out;
 }
 
 
