@@ -431,7 +431,7 @@ main {
     padding: 3rem 2rem;
     background-repeat: no-repeat;
     background-size: cover;
-    cursor: pointer;
+    /* cursor: pointer; */
     position: relative;
 }
 
@@ -451,18 +451,6 @@ main {
     left: 0;
     background-color: rgba(0, 0, 0, .3);
 }
-
-/* .sec-one-item1{
-    background-image: url(./assets/ga19.jpg);
-}
-
-.sec-one-item2{
-    background-image: url(./assets/ga17.jpg);
-}
-
-.sec-one-item3{
-    background-image: url(./assets/ga5.jpg);
-} */
 
 .sec-one-icon {
     display: flex;
@@ -524,6 +512,22 @@ main {
 .sec-one-item3:hover .sec-one-lists li {
     color: var(--black);
 }
+/* read more */
+
+#more1, #more2, #more3 {display: none;}
+
+.readBtn{
+    margin-left: 50%;
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem;
+    transform: translateX(-50%);
+}
+
+#dots3, #moreText3{
+    transition: all 5s ease-in-out;
+}
+
 
 /* SECTION TWO */
 .section-two {
@@ -1316,13 +1320,4 @@ textarea::placeholder {
 }
 
 
-/* read more */
 
-#more {display: none;}
-
-.readBtn{
-    margin-left: 38%;
-    font-size: 15px;
-    color: black;
-    padding: 5px;
-}
