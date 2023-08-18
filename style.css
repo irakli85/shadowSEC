@@ -66,14 +66,14 @@ header {
 }
 
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
 
-.nav_items{
+.nav_items {
     color: var(--black);
     font-size: 2rem;
     font-weight: 700;
@@ -84,7 +84,7 @@ header {
 }
 
 
-.nav_items:hover{
+.nav_items:hover {
     color: var(--orange);
 }
 
@@ -146,7 +146,7 @@ header {
     align-items: center;
     padding-left: 1.5rem;
     margin-bottom: 0 !important;
-  }
+}
 
 
 .dropbtn::before {
@@ -688,7 +688,7 @@ main {
 /* SECTION FIVE */
 
 
-.section-five{
+.section-five {
     padding: 6rem 40rem;
     border-bottom: 1px solid white;
     background-color: var(--orange);
@@ -698,20 +698,20 @@ main {
 }
 
 
-.section-five p{
+.section-five p {
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-left: 2rem;
 }
 
-.section-five h3{
+.section-five h3 {
     font-size: 2.6rem;
     margin-top: 2rem;
 }
 
 
-.accordion{
-    margin-top: 3rem;    
+.accordion {
+    margin-top: 3rem;
 }
 
 .accordion-button::after {
@@ -723,52 +723,77 @@ main {
 }
 
 
-.accordion-button{
+.accordion-button {
     font-size: 2rem;
     color: var(--orange) !important;
-    font-weight: 900;    
+    font-weight: 900;
     padding-left: 30%;
 }
 
-.accordion-body{
+.accordion-body {
     padding: 4rem 10rem;
     font-size: 1.8rem;
     color: var(--black);
 }
 
-.section-five h2{
+.section-five h2 {
     font-size: 4rem;
 }
 
 /* SECTION SIX */
 /* საზღვრები არი მოსაახლოებელი*/
-.swiper-wrapper {
- padding: 0;
- margin: 0;
-}
+
 
 .sec-six-content1,
 .sec-six-content2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   }
-   .partners{
+    border-bottom: solid #f1f1f1 5px ;
+}
+
+.team {
     font-size: 5rem;
-    margin-top: 3rem;
-   }
+    margin-top: 2rem;
+}
+
+.swiper-wrapper2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 2rem; */
+
+}
+
+.swiper-slide2 {
+    text-align: center;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.swiper-slide2 img {
+    display: block;
+}
 
 .sec-six-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:2rem;
-}
-#read-more{
-    display: none;
+
 }
 
+#read-more {
+    display: none;
+    
+    }
+    .sec-six-item a{
+    cursor: pointer;
+    color: var(--orange); /* read more color */
+}
 .sec-six-avatar {
     height: 15rem;
     width: 15rem;
@@ -785,8 +810,9 @@ main {
     max-width: 14rem;
 }
 
-/* socials flexed*/
+
 .sec-six-socials {
+    top:5rem; /* margin top */
     display: flex;
 }
 
@@ -916,8 +942,8 @@ main {
     background: white;
     font-size: 1.4rem;
     color: #000;
-    padding: 10rem;
-  }
+    padding: 5rem;
+}
 
 .swiper {
     width: 100%;
@@ -945,8 +971,8 @@ main {
 .section-nine h2 {
     color: var(--orange);
     position: relative;
-    top: 4rem;
-    left: 4rem;
+    display: flex;
+    justify-content: center;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -1117,9 +1143,9 @@ textarea::placeholder {
 /* -----MEDIA--- */
 @media screen and (max-width: 650px) {
 
-     
-   
-    main{
+
+
+    main {
         height: auto;
     }
 
@@ -1189,11 +1215,13 @@ textarea::placeholder {
         justify-content: center;
 
 
-    }  
-    .nav_items{
+    }
+
+    .nav_items {
         font-size: 1.5rem;
-    }  
-    .nav{
+    }
+
+    .nav {
 
         gap: 1rem;
     }
@@ -1241,7 +1269,7 @@ textarea::placeholder {
 
 @media screen and (max-width: 1200px) {
 
-    .nav_items{
+    .nav_items {
         font-size: 1.5rem;
         width: 8.7rem;
     }
@@ -1249,7 +1277,7 @@ textarea::placeholder {
 
 @media screen and (max-width: 1075px) {
 
-    .nav_items{
+    .nav_items {
         font-size: 1rem;
         width: 6.7rem;
     }
@@ -1258,23 +1286,23 @@ textarea::placeholder {
         padding: 6rem 4rem;
     }
 
-    header{
+    header {
         justify-content: space-between;
-    }  
+    }
 
-    .nav{
+    .nav {
         display: none;
     }
 
-    #menuBtn{
+    #menuBtn {
         display: block;
     }
 
-    .section-nine {       
+    .section-nine {
         padding: 0;
-      }
+    }
 
-      .accordion-button{          
+    .accordion-button {
         padding-left: 5%;
     }
 
