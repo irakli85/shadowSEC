@@ -1292,7 +1292,7 @@ textarea::placeholder {
 
     .gallery-video video{
         max-width: 26rem;
-        height: 26rem;
+        height: 26rem;        
         border-radius: 2rem;
         object-fit: fill;
      }
