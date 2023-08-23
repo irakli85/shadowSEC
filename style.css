@@ -846,6 +846,7 @@ main {
 .sec-six-item p {
     font-size: 1.7rem;
     font-weight: 700;
+    margin-top: 1rem;
 }
 
 .sec-six-item span {
@@ -863,6 +864,7 @@ main {
 .swiper {
     display: flex !important;
     justify-content: center !important;
+    align-items: flex-start !important;
 }
 
 /* SECTION SEVEN */
