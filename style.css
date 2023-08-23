@@ -512,11 +512,16 @@ main {
 .sec-one-item3:hover .sec-one-lists li {
     color: var(--black);
 }
+
 /* read more */
 
-#more1, #more2, #more3 {display: none;}
+#more1,
+#more2,
+#more3 {
+    display: none;
+}
 
-.readBtn{    
+.readBtn {
     margin-left: 50%;
     font-size: 1.5rem;
     color: black;
@@ -629,7 +634,7 @@ main {
     flex-wrap: wrap;
 }
 
-.sec-four-content1{
+.sec-four-content1 {
     margin-top: 4rem;
 }
 
@@ -657,33 +662,33 @@ main {
     line-height: 2rem;
 }
 
-.videoteka{
+.videoteka {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 }
 
-.videoteka h2{
+.videoteka h2 {
     font-weight: 700;
     font-size: 4rem;
     color: var(--orange);
 }
 
 
-.gallery-video{
+.gallery-video {
     margin-top: 7rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
-.gallery-video video{
-   max-width: 35rem;
-   height: 26rem;
-   border-radius: 2rem;
-   object-fit: fill;
+.gallery-video video {
+    max-width: 35rem;
+    height: 26rem;
+    border-radius: 2rem;
+    object-fit: fill;
 }
 
 /* SECTION FIVE */
@@ -750,7 +755,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-bottom: solid #f1f1f1 5px ;
+    border-bottom: solid #f1f1f1 5px;
 }
 
 .team {
@@ -766,14 +771,72 @@ main {
 
 }
 
-#read-more {
+/* read more for team*/
+#more4,
+#more5,
+#more6,
+#more7,
+#more8,
+#more9,
+#more10,
+#more11,
+#more12,
+#more13,
+#more14,
+#more15,
+#more16,
+#more17,
+#more18,
+#more19 {
     display: none;
-    
-    }
-    .sec-six-item a{
-    cursor: pointer;
-    color: var(--orange); /* read more color */
+
 }
+
+#dots4,
+#dots5,
+#dots6,
+#dots7,
+#dots8,
+#dots9,
+#dots10,
+#dots11,
+#dots12,
+#dots13,
+#dots14,
+#dots15,
+#dots16,
+#dots17,
+#dots18,
+#dots19 {
+    font-size: 2rem;
+}
+
+#myBtn4,
+#myBtn5,
+#myBtn6,
+#myBtn7,
+#myBtn8,
+#myBtn9,
+#myBtn10,
+#myBtn11,
+#myBtn12,
+#myBtn13,
+#myBtn14,
+#myBtn15,
+#myBtn16,
+#myBtn17,
+#myBtn18,
+#myBtn19 {
+    color: #f1a30b;
+}
+
+.anotation a {
+    cursor: pointer;
+    font-size: 1.3rem;
+
+}
+
+/*----------------------*/
 .sec-six-avatar {
     height: 15rem;
     width: 15rem;
@@ -792,11 +855,12 @@ main {
 
 
 .sec-six-socials {
-    top:5rem; /* margin top */
+    top: 5rem;
+    /* margin top */
     display: flex;
 }
 
-.swiper {    
+.swiper {
     display: flex !important;
     justify-content: center !important;
 }
@@ -1290,13 +1354,10 @@ textarea::placeholder {
         font-size: 1.8rem;
     }
 
-    .gallery-video video{
+    .gallery-video video {
         max-width: 26rem;
         height: 26rem;
         border-radius: 2rem;
         object-fit: fill;
-     }
+    }
 }
-
-
-
