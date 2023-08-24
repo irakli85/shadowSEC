@@ -785,7 +785,10 @@ main {
 #more16,
 #more17,
 #more18,
-#more19 {
+#more19, 
+#more20,
+#more21,
+#more22 {
     display: none;
 
 }
@@ -805,7 +808,10 @@ main {
 #dots16,
 #dots17,
 #dots18,
-#dots19 {
+#dots19,
+#dots20,
+#dots21,
+#dots22 {
     font-size: 2rem;
 }
 
@@ -824,7 +830,10 @@ main {
 #myBtn16,
 #myBtn17,
 #myBtn18,
-#myBtn19 {
+#myBtn19,
+#myBtn20,
+#myBtn21,
+#myBtn22 {
     color: #f1a30b;
 }
 

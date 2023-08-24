@@ -395,3 +395,59 @@ function myFunction19() {
     moreText19.style.display = "inline";
   }
 }
+
+// ----- ketevan tsikarishvili
+
+function myFunction20() {
+  var dots20 = document.getElementById("dots20");
+  var moreText20 = document.getElementById("more20");
+  var btnText20 = document.getElementById("myBtn20");
+
+  if (dots20.style.display === "none") {
+    dots20.style.display = "inline";
+    btnText20.innerHTML = "Read more";
+    moreText20.style.display = "none";
+  } else {
+    dots20.style.display = "none";
+    btnText20.innerHTML = "Read less";
+    moreText20.style.display = "inline";
+  }
+}
+
+// ----- lasha panchulidze
+
+function myFunction21() {
+  var dots21 = document.getElementById("dots21");
+  var moreText21 = document.getElementById("more21");
+  var btnText21 = document.getElementById("myBtn21");
+
+  if (dots21.style.display === "none") {
+    dots21.style.display = "inline";
+    btnText21.innerHTML = "Read more";
+    moreText21.style.display = "none";
+  } else {
+    dots21.style.display = "none";
+    btnText21.innerHTML = "Read less";
+    moreText21.style.display = "inline";
+  }
+}
+
+// ----- malkhaz abuseridze
+
+function myFunction22() {
+  var dots22 = document.getElementById("dots22");
+  var moreText22 = document.getElementById("more22");
+  var btnText22 = document.getElementById("myBtn22");
+
+  if (dots22.style.display === "none") {
+    dots22.style.display = "inline";
+    btnText22.innerHTML = "Read more";
+    moreText22.style.display = "none";
+  } else {
+    dots22.style.display = "none";
+    btnText22.innerHTML = "Read less";
+    moreText22.style.display = "inline";
+  }
+}
+
+
