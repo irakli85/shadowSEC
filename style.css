@@ -571,6 +571,10 @@ main {
     gap: 2rem;
     border-bottom: 1px solid white;
 }
+.section-three h2 {
+    font-size: 3rem;
+}
+
 
 .sec-three-cards1,
 .sec-three-cards2 {
@@ -618,9 +622,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
     flex-wrap: wrap;
     border-bottom: 1px solid white;
+}
+.section-four h2 {
+    font-size: 3rem;
 }
 
 .sec-four-content1,
@@ -693,7 +700,7 @@ main {
 
 
 .section-five {
-    padding: 6rem 40rem;
+    padding: 6rem 25rem;
     border-bottom: 1px solid white;
     background-color: var(--orange);
     background-repeat: no-repeat;
@@ -713,7 +720,6 @@ main {
     margin-top: 2rem;
 }
 
-
 .accordion {
     margin-top: 3rem;
 }
@@ -731,7 +737,7 @@ main {
     font-size: 2rem;
     color: var(--orange) !important;
     font-weight: 900;
-    padding-left: 30%;
+    padding-left: 38%;
 }
 
 .accordion-body {
@@ -742,6 +748,7 @@ main {
 
 .section-five h2 {
     font-size: 4rem;
+    text-align: center;
 }
 
 /* SECTION SIX */
