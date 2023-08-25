@@ -952,9 +952,10 @@ main {
     color: var(--orange);
     /* bottom: 0; */
     right: 2rem;
-    top: 26rem;
+    top: 32rem;
     display: flex;
     gap: 1rem;
+    z-index: 999;
 }
 
 .pub-heading{
