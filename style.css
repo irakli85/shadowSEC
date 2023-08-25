@@ -868,11 +868,11 @@ main {
     display: flex;
 }
 
-.swiper {
+/* .swiper {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-}
+} */
 
 /* SECTION SEVEN */
 
@@ -916,8 +916,7 @@ main {
 }
 
 .sec-seven-quote-item {
-    width: 50rem;
-    height: 25rem;
+    width: 100%;
     background-color: white;
     padding: 3rem 2rem;
 }
@@ -935,6 +934,39 @@ main {
     font-size: 1.8rem;
     font-weight: 700;
 }
+
+.mySwiper4{
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: block !important;
+}
+
+.swiper-wrapper4{
+    width: 40% !important;   
+}
+
+.pub-pdf{
+    position: absolute;
+    font-size: 2rem;
+    color: var(--orange);
+    /* bottom: 0; */
+    right: 2rem;
+    top: 26rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.pub-heading{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--orange) !important;
+}
+
+
 
 /* SECTION EIGHT */
 
