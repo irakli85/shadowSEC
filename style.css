@@ -1402,4 +1402,9 @@ textarea::placeholder {
         border-radius: 2rem;
         object-fit: fill;
     }
+
+    .section-seven {
+        display: none;
+    }
+
 }
