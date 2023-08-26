@@ -521,7 +521,7 @@ main {
     display: none;
 }
 
-.readBtn {    
+.readBtn {
     margin-left: 50%;
     font-size: 1.5rem;
     color: black;
@@ -571,6 +571,7 @@ main {
     gap: 2rem;
     border-bottom: 1px solid white;
 }
+
 .section-three h2 {
     font-size: 3rem;
 }
@@ -626,6 +627,7 @@ main {
     flex-wrap: wrap;
     border-bottom: 1px solid white;
 }
+
 .section-four h2 {
     font-size: 3rem;
 }
@@ -792,7 +794,7 @@ main {
 #more16,
 #more17,
 #more18,
-#more19, 
+#more19,
 #more20,
 #more21,
 #more22 {
@@ -870,9 +872,11 @@ main {
 
 
 .sec-six-socials {
-    top: 5rem;
-    /* margin top */
     display: flex;
+}
+
+.sec-six-socials a {
+    padding-top: 1.5rem;
 }
 
 .swiper {
@@ -942,18 +946,18 @@ main {
     font-weight: 700;
 }
 
-.mySwiper4{
+.mySwiper4 {
     width: 100%;
     padding-top: 5rem;
     padding-bottom: 5rem;
     display: block !important;
 }
 
-.swiper-wrapper4{
-    width: 40% !important;   
+.swiper-wrapper4 {
+    width: 40% !important;
 }
 
-.pub-pdf{
+.pub-pdf {
     position: absolute;
     font-size: 2rem;
     color: var(--orange);
@@ -965,7 +969,7 @@ main {
     z-index: 999;
 }
 
-.pub-heading{
+.pub-heading {
     font-size: 4rem;
     text-align: center;
 }
@@ -1405,7 +1409,7 @@ textarea::placeholder {
 
     .gallery-video video {
         max-width: 26rem;
-        height: 26rem;        
+        height: 26rem;
         border-radius: 2rem;
         object-fit: fill;
     }
