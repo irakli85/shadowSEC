@@ -575,6 +575,7 @@ main {
 
 .section-three h2 {
     font-size: 3rem;
+    font-family: sans-serif;
 }
 
 
@@ -609,12 +610,16 @@ main {
     margin-top: 2rem;
     font-size: 2rem;
     font-weight: 700;
+    font-family: sans-serif;
+
 }
 
 .sec-three-card-items p {
     margin-top: 2rem;
     width: 20rem;
     font-size: 1.5rem;
+    font-family: sans-serif;
+
 }
 
 /* SECTION FOUR */
