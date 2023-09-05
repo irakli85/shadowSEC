@@ -477,10 +477,16 @@ main {
     gap: 1rem;
 }
 
-.sec-one-lists li {
+.sec-one-lists li,
+#sec-one-span {
     font-size: 1.7rem;
+    /* color: var(--black); */
 }
 
+#sec-one-span{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
 .sec-one-card-items:hover:before {
     display: none;
 }
@@ -510,7 +516,8 @@ main {
 .sec-one-item3:hover .sec-one-card-title,
 .sec-one-item1:hover .sec-one-lists li,
 .sec-one-item2:hover .sec-one-lists li,
-.sec-one-item3:hover .sec-one-lists li {
+.sec-one-item3:hover .sec-one-lists li,
+.sec-one-item3:hover .sec-one-lists #sec-one-span {
     color: var(--black);
 }
 
@@ -547,7 +554,7 @@ main {
     color: var(--white);
     font-size: 3rem;
     font-weight: 700;
-    max-width: 45rem;
+    max-width: 55rem;
 }
 
 .sec-two-content div {
@@ -616,7 +623,7 @@ main {
 
 .sec-three-card-items p {
     margin-top: 2rem;
-    width: 20rem;
+    width: 25rem;
     font-size: 1.5rem;
     font-family: sans-serif;
 
