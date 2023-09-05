@@ -15,7 +15,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 50%;
     text-decoration: none !important;
     font-family: 'Noto Sans Georgian', sans-serif;
     color: var(--white)
@@ -532,9 +532,16 @@ main {
 .readBtn {
     margin-left: 50%;
     font-size: 1.5rem;
-    color: black;
+    color:#f1f1f1 ;
     padding: 1rem;
     transform: translateX(-50%);
+    background-color:#f1a30b;
+    border-color: #dbd0bb;
+    border-radius: 15%;
+}
+
+.readBtn:hover{
+background-color:#2e2e2e;
 }
 
 /* SECTION TWO */
@@ -552,16 +559,16 @@ main {
 
 .sec-two-content p {
     color: var(--white);
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    max-width: 55rem;
+    max-width: 60rem;
 }
 
 .sec-two-content div {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20rem;
+    width: 23rem;
     height: 5rem;
     background-color: var(--black);
     color: var(--white);
