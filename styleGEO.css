@@ -537,7 +537,8 @@ main {
     transform: translateX(-50%);
     background-color:#f1a30b;
     border-color: #dbd0bb;
-    border-radius: 15%;
+    border-radius: 15px;
+    
 }
 
 .readBtn:hover{

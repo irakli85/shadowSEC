@@ -524,10 +524,17 @@ main {
 .readBtn {
     margin-left: 50%;
     font-size: 1.5rem;
-    color: black;
+    color:#f1f1f1 ;
     padding: 1rem;
     transform: translateX(-50%);
+    background-color:#f1a30b;
+    border-color: #dbd0bb;    
+    border-radius: 15px;    
 }
+
+.readBtn:hover{
+    background-color:#2e2e2e;
+    }
 
 /* SECTION TWO */
 .section-two {
