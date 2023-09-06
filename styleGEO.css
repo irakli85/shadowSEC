@@ -1311,6 +1311,10 @@ textarea::placeholder {
         margin-top: 4rem;
     }
 
+    .footer-content1 h2{
+        font-size: 3rem;
+    }
+
     .footer-email input,
     .footer-name input {
         width: 10rem;
